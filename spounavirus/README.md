@@ -1,4 +1,4 @@
-###Phage Proteomic Tree for the Spounavirus analyses
+# Phage Proteomic Tree for the Spounavirus analyses
 
 The file spounavirus.tsv is the spreadsheet with all the spounavirus IDs in. Note that I added an extra column, the first column, with a unique number, that I will use while processing the sequences.
 
