@@ -54,6 +54,7 @@ foreach my $file (@infiles)
 	if ($addfilename) {
 		my $fn = $file;
 		$fn =~ s#^.*\/##; # just remove any path information
+		$fn =~ s#.gbk##; $fn =~ s#.gb##; # remove the file extension if it exists
 		$filetag = " [$fn]";
 	}
 	my $sio=Bio::SeqIO->new(-file=>$file, -format=>'genbank');
