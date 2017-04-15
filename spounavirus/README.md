@@ -17,5 +17,12 @@ for GENOME in spounavirus_ids.txt;
    done
 ```
 
+Now we need to extract all the proteins from all the genomes. We can use the perl code in `../genbank_code/genbank2table.pl` to extract just the proteins to a fasta file.
+
+
+
+```
+perl ../genbank_code/genbank2table.pl -t -p proteins.faa genomes/*
+```
 
 
