@@ -21,12 +21,24 @@ for GENOME in spounavirus_ids.txt;
    done
 ```
 
-Now we need to extract all the proteins from all the genomes. We can use the perl code in `../genbank_code/genbank2table.pl` to extract just the proteins to a fasta file.
+Now we need to extract all the proteins from all the genomes, and create a list of names that we will use on the final tree. This list of names also includes an automatic abbreviation of the name that is generated. These names are not tested to be unique, but hopefully will be!
 
+
+Then we create a list of [protein IDs, genome IDs, protein lengths] that we use when we combine everything later.
 
 
 ```
-perl ../genbank_code/genbank2table.pl -t -p proteins.faa genomes/*
+perl ../genbank_code/genbank2table.pl -t -p proteins.faa -i genome_names.txt genomes/*
+perl ../protein_genome_length.pl proteins.faa  > protein_genome_length.txt
+
 ```
+
+to test if the names are unique you can run this command and see if anything at the bottom of the list occurs more than once!
+
+```
+cut -f 3 -t$'\t' genome_names.txt | sort | uniq -c | sort -n 
+```
+
+
 
 
