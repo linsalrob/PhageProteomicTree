@@ -6,5 +6,6 @@ In 1999, Edwards and Rohwer started testing different techniques for combining t
 
 This code is the original code (some of it has been slightly updated to fix major bugs) to generate the phage proteomic tree.
 
+In the directory [spounavirus](spounavirus) we walk through building a phage proteomic tree for 93 spounaviridae as part of a joint collaborative effort that [Evelien Adriaenssens](https://scholar.google.com/citations?user=58SHSIkAAAAJ&hl=en) is organising.
 
 
