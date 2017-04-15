@@ -3,6 +3,8 @@
 # convert proteins.faa to a list of protein IDs, genome IDs, and protein length
 #
 
+use FindBin;
+use lib $FindBin::Bin;
 use strict;
 use Rob;
 my $rob = new Rob;

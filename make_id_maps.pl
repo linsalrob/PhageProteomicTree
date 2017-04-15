@@ -28,11 +28,20 @@ open(IN, $gennamef) || die "can't open $gennamef";
 while (<IN>) {
 	chomp;
 	my ($id, $full, $abbr)=split /\t/;
+	my $used;
 	if (defined $abbr) {
 		$genomename{$id}=$abbr;
+		$used = $abbr;
 	} else {
 		print STDERR "Warning. No abbreviation for $id, so using $id as the name!\n";
 		$genomename{$id}=$id;
+		$used = $id;
+	}
+
+	if ($id =~ s/\.\d+$//) {
+	print STDERR "ADding $id\n";
+		# we removed the version from this. So we store it too
+		$genomename{$id} = $used;
 	}
 }
 
@@ -56,8 +65,9 @@ foreach my $gen (sort {uc($genomename{$a}) cmp uc($genomename{$b})} keys %genome
 		print STDERR "No genome for $gen ($genomename{$gen})\n";
 		$genome{$gen} = "XXX";
 	}
+
 	unless (defined $genomename{$gen}) {
-		                print STDERR "No genome for $gen ($genome{$gen}\n";
+		                print STDERR "No genome for $gen ($genome{$gen})\n";
 				$genomename{$gen} = "XXX";
 			}
 	print GEN $genome{$gen}, "\t", $genomename{$gen}, "\n";

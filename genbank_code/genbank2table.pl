@@ -6,8 +6,18 @@ use Bio::SeqIO;
 use strict;
 
 my $usage=<<EOF;
-$0 [-v (for verbose output)] [-t (to add the filename to all the ids)] [-d DNA file for genes] [-g DNA file for genome] [-p proteins file] [-f functions file] [-i id file] <list of genbankfiles>
+$0 [OPTIONS] <list of genbankfiles>
 
+OPTIONS:
+	-v   (for verbose output)
+	-t   (to add the sequence accession to all the ids printed)
+	-d <filename>  file for DNA sequence of the genes
+	-g <filename>  file for DNA sequence of the genome
+	-p <filename>  file for the protein sequences
+	-f <filename>  file for the functions
+	-i <filename>  file for the sequence accessions and names
+
+You must specify one of -d, -g, -p, -f or -i
 EOF
 
 die $usage unless ($ARGV[0]);
@@ -19,7 +29,7 @@ my $dnaF;
 my $protF;
 my $funcF;
 my $genomeF;
-my $addfilename;
+my $adddesc;
 my $idF;
 
 while (@ARGV) {
@@ -30,7 +40,7 @@ while (@ARGV) {
 	elsif ($f eq "-g") {$genomeF = shift @ARGV}
 	elsif ($f eq "-i") {$idF = shift @ARGV}
 	elsif ($f eq "-v") {$verbose = 1}
-	elsif ($f eq "-t") {$addfilename = 1}
+	elsif ($f eq "-t") {$adddesc = 1}
 	else {push @infiles, $f}
 }
 
@@ -53,16 +63,11 @@ if ($seedid) {open(CO, ">contigs") || die "Can't open contigs"}
 my $c;
 foreach my $file (@infiles)
 {
-	my $filetag = "";
-	if ($addfilename) {
-		my $fn = $file;
-		$fn =~ s#^.*\/##; # just remove any path information
-		$fn =~ s#.gbk##; $fn =~ s#.gb##; # remove the file extension if it exists
-		$filetag = " [$fn]";
-	}
+	my $desctag = "";
 	my $sio=Bio::SeqIO->new(-file=>$file, -format=>'genbank');
 	while (my $seq=$sio->next_seq) {
-		if (defined $genomeF) {print GF ">", $seq->display_name, "$filetag\n", $seq->seq, "\n"}
+		if ($adddesc) {$desctag = " [" . $seq->accession. "]"}
+		if (defined $genomeF) {print GF ">", $seq->display_name, "$desctag\n", $seq->seq, "\n"}
 		if (defined $idF) {
 			my $shortname = &shortname($seq->desc);
 			print IDF join("\t", $seq->accession, $seq->desc, $shortname), "\n";
@@ -134,9 +139,9 @@ foreach my $file (@infiles)
 				if ($verbose) {print STDERR "No product for $np\n"}
 				$prod="hypothetical protein";
 			}
-			if (defined $dnaF) {print SQ ">$np$filetag\n", $feature->seq()->seq(), "\n"}
-			if (defined $protF) {print FA ">$np$filetag\n$trans\n"}
-			if (defined $funcF) {print PR "$np$filetag\t$start\t$end\t$prod\t$oids\t$seqname\t$organism\t$taxid\t", $seq->display_name, "\n"}
+			if (defined $dnaF) {print SQ ">$np$desctag\n", $feature->seq()->seq(), "\n"}
+			if (defined $protF) {print FA ">$np$desctag\n$trans\n"}
+			if (defined $funcF) {print PR "$np$desctag\t$start\t$end\t$prod\t$oids\t$seqname\t$organism\t$taxid\t", $seq->display_name, "\n"}
 		}
 	}
 }
