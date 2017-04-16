@@ -142,5 +142,7 @@ Here is the final tree. To generate this image I opened the [renamed_full.tree](
 
 ![Phage Proteomic Tree of the Spounaviridae](images/final_tree.png)
 
-As you will note, some of the intermediate files are missing from this repository because we are limited in size.
+## Files
+
+We have included most of the important files in this repo, though if we forgot some let Rob know. As you will note, some of the intermediate files are missing from this repository because we are limited in size.
 
