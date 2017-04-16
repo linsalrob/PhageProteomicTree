@@ -140,7 +140,7 @@ perl ../rename_tree_leaves.pl genome_id.map raw.tree > renamed_full.tree
 Here is the final tree. To generate this image I opened the [renamed_full.tree](renamed_full.tree) file in the awesome [FigTree](http://tree.bio.ed.ac.uk/software/figtree/)
 
 
-
+![Phage Proteomic Tree of the Spounaviridae](images/final_tree.png)
 
 As you will note, some of the intermediate files are missing from this repository because we are limited in size.
 
