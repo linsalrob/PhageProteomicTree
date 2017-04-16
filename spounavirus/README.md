@@ -70,6 +70,10 @@ java -jar ~/PhageProteomicTree/ppt.jar phage_proteins.blastp 0.1 proteins.faa fa
 
 This program writes out the fasta files in a directory (fastafiles). The fasta files have the clusters of proteins, but the proteins have been renamed with an integer for downstream analysis. The code also makes a file called `id.map` that has the original protein ids and the new protein ids (which are just integers).
 
+## Generate the ID files
+
+In this step we need to create a couple of ID mapping files so we know where things came from
+
 We need to associate proteins with genomes, and genomes with IDs, so we make two map files, called genome_id.map and protein_genome_lengths.txt that you need for later steps.
 
 ```
@@ -105,6 +109,9 @@ Next, we need to clean up the output. First, remove empty protdist files, and th
 rm -f `find protdist -size 0`
 perl ../rewrite_protdists.pl protdist protdist.fixed
 ```
+## Generate the distance matrix
+
+In this step, we combine all the individual distance matrices from protdist into a single distance matrix
 
 The matrix composition is almost complete, we just need to convert them to a single matrix. We need to know how many genomes we expect, so lets set that as a shell variable, and then submit the matrix code to the cluster for calculation. This uses combineprotdists.pl to calculate a single matrix (well, as we'll see, it actually makes two matrices).
 
@@ -113,28 +120,27 @@ NUMGENOMES=$(wc -l genome_names.txt | sed -e 's/\s\+genome_names.txt//')
 qsub -cwd -S /bin/bash -V -v NUMGENOMES=$NUMGENOMES -o sge_output -e sge_output ~/PhageProteomicTree/matrix.sh
 ```
 
+This step makes two output files matrix and matrix.nosubreplicates. The first has the distance measure and the number of calculations that were used to generate that distance measure. The second has just the distance measure. We will only use the second file.
+
+## Make the tree
+
+In the final step we make a neighbor joining tree and rename the tree using the abbreviations generated in [Generate the ID files](#Generate_the_ID_files) step above.
+
+```
+mkdir neighbor
+cp matrix.nosubreplicates neighbor/infile
+cd neighbor
+neighbor
+[For neighbor I usually randomize the input order]
+cp outtree ../raw.tree
+cd ..
+perl ../rename_tree_leaves.pl genome_id.map raw.tree > renamed_full.tree
+```
+
+Here is the final tree. To generate this image I opened the [renamed_full.tree](renamed_full.tree) file in the awesome [FigTree](http://tree.bio.ed.ac.uk/software/figtree/)
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+As you will note, some of the intermediate files are missing from this repository because we are limited in size.
 
