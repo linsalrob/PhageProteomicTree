@@ -99,6 +99,23 @@ This gives us a job id, which we use as JID in this submission which holds until
 qsub -cwd -S /bin/bash -V -o sge_output/ -e sge_output/ -t 1-$NUMFILES:1 -hold_jid <previous job number> ~/PhageProteomicTree/protdist.sh
 ```
 
+Next, we need to clean up the output. First, remove empty protdist files, and then reformat them so that they have one result per line
+
+```
+rm -f `find protdist -size 0`
+perl ../rewrite_protdists.pl protdist protdist.fixed
+```
+
+The matrix composition is almost complete, we just need to convert them to a single matrix. We need to know how many genomes we expect, so lets set that as a shell variable, and then submit the matrix code to the cluster for calculation. This uses combineprotdists.pl to calculate a single matrix (well, as we'll see, it actually makes two matrices).
+
+```
+NUMGENOMES=$(wc -l genome_names.txt | sed -e 's/\s\+genome_names.txt//')
+qsub -cwd -S /bin/bash -V -v NUMGENOMES=$NUMGENOMES -o sge_output -e sge_output ~/PhageProteomicTree/matrix.sh
+```
+
+
+
+
 
 
 
