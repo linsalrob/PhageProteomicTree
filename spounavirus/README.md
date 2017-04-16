@@ -124,7 +124,7 @@ This step makes two output files matrix and matrix.nosubreplicates. The first ha
 
 ## Make the tree
 
-In the final step we make a neighbor joining tree and rename the tree using the abbreviations generated in [Generate the ID files](#Generate_the_ID_files) step above.
+In the final step we make a neighbor joining tree and rename the tree using the abbreviations generated in [Generate the ID files](#Generate the ID files) step above.
 
 ```
 mkdir neighbor
