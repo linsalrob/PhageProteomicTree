@@ -124,7 +124,7 @@ This step makes two output files matrix and matrix.nosubreplicates. The first ha
 
 ## Make the tree
 
-In the final step we make a neighbor joining tree and rename the tree using the abbreviations generated in [Generate the ID files](#Generate_the_ID_files) step above.
+In the final step we make a neighbor joining tree and rename the tree using the abbreviations generated in Generate the ID files step above.
 
 ```
 mkdir neighbor
@@ -140,7 +140,9 @@ perl ../rename_tree_leaves.pl genome_id.map raw.tree > renamed_full.tree
 Here is the final tree. To generate this image I opened the [renamed_full.tree](renamed_full.tree) file in the awesome [FigTree](http://tree.bio.ed.ac.uk/software/figtree/)
 
 
+![Phage Proteomic Tree of the Spounaviridae](images/final_tree.png)
 
+## Files
 
-As you will note, some of the intermediate files are missing from this repository because we are limited in size.
+We have included most of the important files in this repo, though if we forgot some let Rob know. As you will note, some of the intermediate files are missing from this repository because we are limited in size.
 
