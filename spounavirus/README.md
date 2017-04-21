@@ -208,3 +208,31 @@ for DIR in sge_output aligned dnd protdist; do if [ ! -e $DIR ]; then mkdir $DIR
 qsub -cwd  -S /bin/bash -V -o sge_output/ -e sge_output/ -t 1-$NUMFILES:1 ~/PhageProteomicTree/clustalw.sh
 
 ```
+
+and then 
+
+```
+qsub -cwd -S /bin/bash -V -o sge_output/ -e sge_output/ -t 1-$NUMFILES:1 -hold_jid 1270536 ~/PhageProteomicTree/protdist.sh
+```
+
+Once that is complete we use:
+
+```
+rm -f `find protdist -size 0`
+perl ~/PhageProteomicTree/rewrite_protdists.pl protdist protdist.fixed
+NUMGENOMES=$(wc -l genome_names.txt | sed -e 's/\s\+genome_names.txt//')
+qsub -cwd -S /bin/bash -V -v NUMGENOMES=$NUMGENOMES -o sge_output -e sge_output ~/PhageProteomicTree/matrix.sh
+```
+
+and then 
+
+```
+mkdir neighbor
+cp matrix.nosubreplicates neighbor/infile
+cd neighbor
+echo -e "j\n133\ny"  | neighbor
+cp outtree ../raw.tree
+cd ..
+perl ~/PhageProteomicTree/rename_tree_leaves.pl genome_id.map raw.tree > renamed_full.tree
+```
+
