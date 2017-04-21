@@ -178,3 +178,33 @@ for I in $(cat mapping.tsv);
 ```
 
 Now we have a set of genbank files that we can process as above.
+
+Lets concatenate those commands in a few shell commands with no explanations:
+
+```
+perl ~/PhageProteomicTree/genbank_code/genbank2table.pl -t -p proteins.faa -i genome_names.txt genomes/*
+perl ~/PhageProteomicTree/protein_genome_length.pl proteins.faa  > protein_genome_length.txt
+
+cut -f 3 -t$'\t' genome_names.txt | sort | uniq -c | sort -n 
+
+makeblastdb -in proteins.faa -dbtype prot
+perl ~/PhageProteomicTree/split_blast_queries_edwards_blastplus.pl -f proteins.faa -n 100 -p blastp -db proteins.faa -d phage_proteins_blast -e 0.1 
+```
+
+and then 
+
+```
+# when this is done concatenate everything
+cat phage_proteins_blast/*blastp > phage_proteins.blastp
+
+mkdir fastafiles
+java -jar ~/PhageProteomicTree/ppt.jar phage_proteins.blastp 0.1 proteins.faa fastafiles
+
+perl ~/PhageProteomicTree/make_id_maps.pl id.map protein_genome_length.txt genome_names.txt
+
+NUMFILES=$(ls fastafiles/ | sed -e 's/fasta.//' | sort -nr | head -n 1); echo "There are $NUMFILES files to process"
+for DIR in sge_output aligned dnd protdist; do if [ ! -e $DIR ]; then mkdir $DIR; fi; done
+
+qsub -cwd  -S /bin/bash -V -o sge_output/ -e sge_output/ -t 1-$NUMFILES:1 ~/PhageProteomicTree/clustalw.sh
+
+```
