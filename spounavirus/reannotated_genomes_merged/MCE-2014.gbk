@@ -35,144 +35,143 @@ COMMENT     THIS GENOME WAS REANNOTATED USING PROKKA BY EVELIEN ADRIAENSSENS
             AND ROB EDWARDS
 FEATURES             Location/Qualifiers
      CDS             complement(20..358)
-                     /inference="ab initio prediction:Prodigal:2.6"
                      /locus_tag="PROKKA_00001"
-                     /protein_id="PROKKA_00001"
-                     /product="hypothetical protein"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00001"
                      /translation="MKINYIPMWDNEDVLQYAKSQLLVNELETKEIVFKNYQISDDID
                      NGTDKKYYEIYESKFYVDEDTTKEEFNNLIIENEKLIKDYKTQNGLIKNLIKSQHEVN
                      EFEYNVINIL*"
+                     /product="hypothetical protein"
      CDS             669..977
-                     /protein_id="PROKKA_00002"
                      /locus_tag="PROKKA_00002"
                      /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00002"
                      /translation="MDVKEIADTIMELWQMDGYRCTEPPLYESTLNHTRTYTALIVSI
                      KGNYDTVQMFRKTPIMSMRGQAQPASMLVNVIDDVIIIVYENVVYGVQNKEIKFVEEI
                      *"
                      /product="hypothetical protein"
      CDS             1183..1467
+                     /locus_tag="PROKKA_00003"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00003"
                      /translation="MTNKNYLYEETHTVQGQDITAFRIPNDANGNPRYVVHFMDLNIK
                      LADYDNINKLYGFNKYRAKWFGGGVVFQSYNIADTLEYAYTQVKTNKISQ*"
                      /product="hypothetical protein"
-                     /protein_id="PROKKA_00003"
-                     /locus_tag="PROKKA_00003"
-                     /inference="ab initio prediction:Prodigal:2.6"
      CDS             1542..1733
-                     /inference="ab initio prediction:Prodigal:2.6"
                      /locus_tag="PROKKA_00004"
-                     /protein_id="PROKKA_00004"
-                     /product="hypothetical protein"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00004"
                      /translation="MKFKIEKNNSDIKTLWNLAKNGYMSYQTVHNIFKNESDEFIIFN
                      SKQTYNKFMKLRYNRSAIQ*"
+                     /product="hypothetical protein"
      CDS             complement(2064..2552)
+                     /locus_tag="PROKKA_00005"
                      /inference="ab initio prediction:Prodigal:2.6,similar to
                      AA sequence:UniProtKB:P34081"
-                     /locus_tag="PROKKA_00005"
-                     /protein_id="PROKKA_00005"
-                     /EC_number="3.1.-.-"
+                     /protein_id="NC_025416_PROKKA_00005"
                      /translation="MVENKINEVWKPIKKEYFNKYNFYVSNLGRVMINDRLSKIHVDR
                      DGYLTVKINKKRHMVHRLVYEYFGNDFNPNYHVHHKDGNKQNNRIDNLECISPSEHNR
                      KHHKDNTFNRYNRGYILSDDERNAIASKYKPYKYTADMLAKEYNISVKTVRRIVKEFK
                      KS*"
                      /product="DNA endonuclease I-HmuI"
+                     /EC_number="3.1.-.-"
      CDS             2719..2877
+                     /locus_tag="PROKKA_00006"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00006"
                      /translation="MLKFKWKNKTIKSTQKTDNILLLIIGGLVATITPKLVNWFLLLQ
                      DNINIFLR*"
                      /product="hypothetical protein"
-                     /protein_id="PROKKA_00006"
-                     /locus_tag="PROKKA_00006"
-                     /inference="ab initio prediction:Prodigal:2.6"
      CDS             2950..3081
-                     /product="hypothetical protein"
+                     /locus_tag="PROKKA_00007"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00007"
                      /translation="MRKITTTLKLIGMRNNERFTEELKNYRQDVTFLKANKIVKYSK*
                      "
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00007"
-                     /protein_id="PROKKA_00007"
-     CDS             3247..3570
                      /product="hypothetical protein"
+     CDS             3247..3570
+                     /locus_tag="PROKKA_00008"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00008"
                      /translation="MKFIKTIENLLTKAENKGQAILNGRYFDGYSKGELEEKYAIEID
                      GNKLIMRHWGTQTIEIDLSVNEIVSYYGESNSDRDSLNTLVYCLGIAPNFRYLPSKDL
                      FIYEN*"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00008"
-                     /protein_id="PROKKA_00008"
+                     /product="hypothetical protein"
      CDS             3670..4071
-                     /inference="ab initio prediction:Prodigal:2.6"
                      /locus_tag="PROKKA_00009"
-                     /protein_id="PROKKA_00009"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00009"
                      /translation="MFKLQNKVEIIVPKYTNSGKEISSPAIKEAVNNATKICGGCTIT
                      EIKGQWWSDDEQRIMEDDNLNLEWYYDKGMQDMNDQQGLLQALSKIARQLIVFYEQEA
                      ISIKINGTLYIIDYEDLDLLSYDLYELMFKN*"
                      /product="hypothetical protein"
      CDS             4568..4789
-                     /product="hypothetical protein"
+                     /locus_tag="PROKKA_00010"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00010"
                      /translation="MNRLEIVKDTAMEYIIMMDNSVMDGVMTQEEYNEAVSFEKVYDY
                      TLSEANKECKFLGGKVLTFLVHEAIEEYA*"
-                     /protein_id="PROKKA_00010"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00010"
+                     /product="hypothetical protein"
      CDS             4869..4967
+                     /locus_tag="PROKKA_00011"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00011"
                      /translation="MANSNLGNIQKMADKFMPPAGWKPGKKTSKKK*"
                      /product="hypothetical protein"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00011"
-                     /protein_id="PROKKA_00011"
      CDS             5049..5213
-                     /product="hypothetical protein"
-                     /translation="MTKTIKQLESQLERLERKSDEELANGYYEAFERTCAQIRELDLQ
-                     IELKKNSETV*"
                      /locus_tag="PROKKA_00012"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /protein_id="PROKKA_00012"
+                     /protein_id="NC_025416_PROKKA_00012"
+                     /translation="MTKTIKQLESQLERLERKSDEELANGYYEAFERTCAQIRELDLQ
+                     IELKKNSETV*"
+                     /product="hypothetical protein"
      CDS             5453..5689
-                     /protein_id="PROKKA_00013"
                      /locus_tag="PROKKA_00013"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /product="hypothetical protein"
+                     /protein_id="NC_025416_PROKKA_00013"
                      /translation="MKLINRDNEIVISIATLESVKQALIWEYIDHLDNNILDSKIYDQ
                      EAVVVTSDTLQSIKFADTMEELEEYVNDIGWKLI*"
+                     /product="hypothetical protein"
      CDS             5770..6120
-                     /protein_id="PROKKA_00014"
                      /locus_tag="PROKKA_00014"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /product="hypothetical protein"
+                     /protein_id="NC_025416_PROKKA_00014"
                      /translation="MTNLLNTIEMDFEYYGVQFENGWKHNAYTVELTHNGVTEEFDWK
                      QGMGIHEEPDLENILESLLMDFRTDDDNIMDIYDDEEKAISVLNQLTKQNDKLLNLFT
                      EYEIMKLEDIINEY*"
+                     /product="hypothetical protein"
      CDS             6189..6353
-                     /protein_id="PROKKA_00015"
                      /locus_tag="PROKKA_00015"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /product="hypothetical protein"
+                     /protein_id="NC_025416_PROKKA_00015"
                      /translation="MTIKEIINQLQAVENKELELFVCDKEGNNFSIKDITLFDSEAEH
                      EENNPLGINY*"
+                     /product="hypothetical protein"
      CDS             6366..6539
+                     /locus_tag="PROKKA_00016"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00016"
                      /translation="MNTRRVNKALNEAVRLLDKQIADTQKTMQELNKQLEQQIKAKQE
                      LMTLVDAMTGDDE*"
                      /product="hypothetical protein"
-                     /protein_id="PROKKA_00016"
-                     /locus_tag="PROKKA_00016"
-                     /inference="ab initio prediction:Prodigal:2.6"
      CDS             6539..6808
-                     /protein_id="PROKKA_00017"
                      /locus_tag="PROKKA_00017"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /product="hypothetical protein"
+                     /protein_id="NC_025416_PROKKA_00017"
                      /translation="MNIREVHNVVKSAKSKLLQEQVHPTDNLIEQYINNELHRRTQGS
                      GTIQMNNNTASYSNGSYGSLEELREAYDLSSLSTDEIKELLETFV*"
-     CDS             6910..7077
                      /product="hypothetical protein"
-                     /translation="MNYQSNLNKFESQLEKETTKLFKMHDQGKDLIDIEEQQEKVRNL
-                     DIIVQSLRNLI*"
+     CDS             6910..7077
                      /locus_tag="PROKKA_00018"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /protein_id="PROKKA_00018"
-     CDS             7370..8818
-                     /protein_id="PROKKA_00019"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00019"
+                     /protein_id="NC_025416_PROKKA_00018"
+                     /translation="MNYQSNLNKFESQLEKETTKLFKMHDQGKDLIDIEEQQEKVRNL
+                     DIIVQSLRNLI*"
                      /product="hypothetical protein"
+     CDS             7370..8818
+                     /locus_tag="PROKKA_00019"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00019"
                      /translation="MEKNIIKVRKSNDDVWVDLSKLPFKKNKSVKYNYDLIEQMENIE
                      VPFSYKGLNDSLYITLKSRVPEATYDYVFKGEKGTITISSLNRVALDRVTYNERKRQG
                      LIKRFNGKRSVDISHLPKIDNYKFYGRVSYNTDFKNSIGLSFNYEFNDTKGTLKIIDY
@@ -182,14 +181,18 @@ FEATURES             Location/Qualifiers
                      EQNEGQRFSLTLEENKKNDKWKKDQAIAHGLKYIEIDVRDHNFDYIKQSIIDSVIPTE
                      DVDWKAVYKYMENGFIIEVIELYNSGLTPNEIGKKLKVSSSVIIERLKQASKIGLIEY
                      TPFDYKIKQLEEKLTKIKKERQEYLDKIRDQD*"
+                     /product="hypothetical protein"
      CDS             complement(8837..9127)
-                     /protein_id="PROKKA_00020"
                      /locus_tag="PROKKA_00020"
                      /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00020"
                      /translation="MNELQGVQTLFNKLEKRIKDTAYCGNKQLGYKDILKLQMGLDDT
                      AFEVLYFDELEEYLENPQDYHLYYDDSRVDWIEVWEHMNTIEQELDNRRLLV*"
                      /product="hypothetical protein"
      CDS             complement(9328..11421)
+                     /locus_tag="PROKKA_00021"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00021"
                      /translation="MPHLKAYDKEGNILAIGYDVKNHQGSVIIPNLSPHTNYPQGEFY
                      ISWEGDNFESEKIVVPEFTTLESSYKEITFYAKDILTVKPMTAYDIAVKNGFDGTEEE
                      WVKSIKGEQGPQGIKGDRGLQGPQGPKGDRGLQGPQGPKGDRGADGVDGIDGTMTFEE
@@ -204,131 +207,128 @@ FEATURES             Location/Qualifiers
                      KVGGVIDEQIDYIRSNFANNKFCEKENPYTVVNTKDNLKGTAFTFWNEEGNELTDEEL
                      LEQVIPIIKAYFTLV*"
                      /product="hypothetical protein"
-                     /locus_tag="PROKKA_00021"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /protein_id="PROKKA_00021"
      CDS             complement(11463..11699)
-                     /inference="ab initio prediction:Prodigal:2.6"
                      /locus_tag="PROKKA_00022"
-                     /protein_id="PROKKA_00022"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00022"
                      /translation="MKIYQVEHNNCEPYEDNFHFREEEVYTNKENLIQRIKNEGYKEE
                      TSYRGEQEFTKGDPRGFDGMDMITIHELEIINNM*"
                      /product="hypothetical protein"
      CDS             complement(11715..11960)
-                     /product="hypothetical protein"
-                     /translation="MEFFIDRTSTINKKPIEGAYIKELERVDQKGNPFTIERWCVEIN
-                     SLEELTELSNQEGEVIINTRGDSPFSPYLEIYDDYRE*"
-                     /protein_id="PROKKA_00023"
                      /locus_tag="PROKKA_00023"
                      /inference="ab initio prediction:Prodigal:2.6"
-     CDS             complement(11960..12205)
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00024"
-                     /protein_id="PROKKA_00024"
+                     /protein_id="NC_025416_PROKKA_00023"
+                     /translation="MEFFIDRTSTINKKPIEGAYIKELERVDQKGNPFTIERWCVEIN
+                     SLEELTELSNQEGEVIINTRGDSPFSPYLEIYDDYRE*"
                      /product="hypothetical protein"
+     CDS             complement(11960..12205)
+                     /locus_tag="PROKKA_00024"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00024"
                      /translation="MAYEYKNKIQDIITDNENYWCIDNEKELKELQEVYQKSKAFDEI
                      VNEFYYQLKNLESWDTLDQKDCQTLKQILEENIKEEN*"
-     CDS             complement(12205..12396)
                      /product="hypothetical protein"
-                     /translation="MIEISVSWTYLISFLLLWSAGTLYINYLIYRIRLTNKERKEMSK
-                     EHHRNREEIKQRIENRRGK*"
-                     /protein_id="PROKKA_00025"
+     CDS             complement(12205..12396)
                      /locus_tag="PROKKA_00025"
                      /inference="ab initio prediction:Prodigal:2.6"
-     CDS             complement(12393..12878)
-                     /protein_id="PROKKA_00026"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00026"
+                     /protein_id="NC_025416_PROKKA_00025"
+                     /translation="MIEISVSWTYLISFLLLWSAGTLYINYLIYRIRLTNKERKEMSK
+                     EHHRNREEIKQRIENRRGK*"
                      /product="hypothetical protein"
+     CDS             complement(12393..12878)
+                     /locus_tag="PROKKA_00026"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00026"
                      /translation="MNKTFFKALGKNTLEYSIQGLGLLVALPIMLIIFSVFLAVIIGI
                      PAGIIYGLYALGINNDFITQLIPVMWFIIIYGITRTQDNKKPFVKLKLKDYLLSILYL
                      TIITATSVLESVLLFKVLPFTGDIRAVITLLSFILFLAVNRGICKIVIKSYKEYKEDS
                      Q*"
+                     /product="hypothetical protein"
      CDS             complement(12871..13311)
+                     /locus_tag="PROKKA_00027"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00027"
                      /translation="MNIKYIDLVLENCDVVRLEPKDVNRFHIEGITEGIDYYGTYKGT
                      SHINRTRHCTYFGMLIDNPKEIPQVGFAYPDNTNAYEMITAYSDITAIDIIYEDGTNE
                      YIYVDFNEYNDNYNINQKNEYYNNMLEVTITESNSIEEEEESYE*"
                      /product="hypothetical protein"
-                     /protein_id="PROKKA_00027"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00027"
      CDS             complement(13325..13867)
-                     /product="hypothetical protein"
+                     /locus_tag="PROKKA_00028"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00028"
                      /translation="MDKINLNKKHDGSTVINISNNITLKIQCTDLRKECDDSEAPTSY
                      THFKAYIIYNIFIVVNDRKQKKKAKYDYYNDHVGRGNVKDLLKVKDIIFQLSTQLNTN
                      EIIKISGADERRYKIYKYFIEKDIRFEDNMYYSKSNIWIINNFSLLQKFQWNAVTTKD
                      GDYNKKELKKIDKEWKELLI*"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00028"
-                     /protein_id="PROKKA_00028"
-     CDS             complement(13879..14367)
-                     /protein_id="PROKKA_00029"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00029"
                      /product="hypothetical protein"
+     CDS             complement(13879..14367)
+                     /locus_tag="PROKKA_00029"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00029"
                      /translation="MRETKEYIMFWGKEDIYSNFYPVTFKHKGRTFNNSEQAFMWRKA
                      QYFKDWQIAGEILNSKNPNHSKSLGRKVRNFNEEQWDKVRYDIMVEVVKDKFMTTHLK
                      REILDTDLRKDFVEASPYDKIWGVGLKANDPKILDESNWKGQNLLGKVMEDVRVHCIY
                      NK*"
+                     /product="hypothetical protein"
      CDS             complement(14382..14834)
-                     /protein_id="PROKKA_00030"
                      /locus_tag="PROKKA_00030"
                      /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00030"
                      /translation="METISLGRLLELFKDTKTLNKLNKDNFIALEPAYRQDKDSKGHT
                      IHFDFKTPKFENFFTIIVKLNSFEGYGNDDIELCLLAGYLRGYVSKRIPNTYDDFFKT
                      LIQLRDEYIEYKGEFRESNKEECDKSNQLKIEKQKQLDKMASTLDKYV*"
                      /product="hypothetical protein"
      CDS             complement(14851..15255)
-                     /product="hypothetical protein"
+                     /locus_tag="PROKKA_00031"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00031"
                      /translation="MKKKYFKGLKLNDFEKEVFGLKRNRRYKKMNKKLGRNEPKYWNY
                      DMSFFVQLYADLNAFIESSERSCIDMEWNTFVDVDGEERTQIDMIKHILSLIQYYHEE
                      MDDFDMDKYDELEQVQNKILDNFKIVLPSLWN*"
-                     /locus_tag="PROKKA_00031"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /protein_id="PROKKA_00031"
+                     /product="hypothetical protein"
      CDS             complement(15258..15959)
-                     /protein_id="PROKKA_00032"
                      /locus_tag="PROKKA_00032"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /product="hypothetical protein"
+                     /protein_id="NC_025416_PROKKA_00032"
                      /translation="MAIYVVPDIHGEYNKLLTLMGKINEERRPEDTIVFLGDYVDRGK
                      RSKDVVNYMFDFISNDDNAVALLGNHDDEFYNIMENVDRLSIYDIEWLSRYCIETLNS
                      YGVSTVTLKYSSVEGNLRNHYDFIKSELKKLKESEDYRKFKILMVNCRKYYKEGKYIF
                      SHSGGVSWKPIEEQTVDQLIWSRDFQPRKDGFIYVCGHTPTSSGEVEEHNDILLCDVG
                      SVFRDIDLPLIKLED*"
+                     /product="hypothetical protein"
      tRNA            complement(16397..16468)
-                     /protein_id="PROKKA_00033"
                      /locus_tag="PROKKA_00033"
-                     /product="tRNA-Met(cat)"
+                     /protein_id="NC_025416_PROKKA_00033"
                      /translation="GLLA*R*SQPLITV*L*VRILQSP"
+                     /product="tRNA-Met(cat)"
                      /note="*inference: COORDINATES:profile:Aragorn:1.2"
      CDS             complement(16748..17296)
+                     /locus_tag="PROKKA_00034"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00034"
                      /translation="MKKIYILEEEIEEMDYDLWEEDTVYTTSYEILGYTDSLEDAEYI
                      RDNYGTSNPIFINEYPYITKEKLIEEQRYFRYNSYIELKRVNGYFEISEINDLQVTED
                      FSINKDDKNFDSPFSINMFSHNRNSIGIEFIMFSEYDDKEDIIEKEKNSFLMKLKYLL
                      KHSKEADIRSTSKIIDSIDKLT*"
                      /product="hypothetical protein"
-                     /protein_id="PROKKA_00034"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00034"
      CDS             complement(17300..17518)
-                     /product="hypothetical protein"
+                     /locus_tag="PROKKA_00035"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00035"
                      /translation="MKNIINFLVDYNINFSYSEDSLNVMNNSYLVDKHGTQDYEIVGN
                      YEHITGVFSYQTEEEVIAKLKNLIGVWE*"
-                     /protein_id="PROKKA_00035"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00035"
+                     /product="hypothetical protein"
      CDS             complement(17519..17713)
+                     /locus_tag="PROKKA_00036"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00036"
                      /translation="MRDKRIHSELLYDIIGKHIQEEENITPYIEAIYVDMMNIIVVEY
                      TFYNENGTRMLGQYPIGEVI*"
                      /product="hypothetical protein"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00036"
-                     /protein_id="PROKKA_00036"
      CDS             complement(17703..18440)
-                     /protein_id="PROKKA_00037"
-                     /inference="ab initio prediction:Prodigal:2.6"
                      /locus_tag="PROKKA_00037"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00037"
                      /translation="MNLEKSFLLSTIEFGSTYQGTSDEYSDKDYMSLVVQPLSDTIFR
                      NSEKASKHTEVSRYYAVERFISLVLKSGFDNVLNLCAQLEQAKNTRFNKTVLDLFYDD
                      FIFLTYVRANFKPIAYSVIGNINNILKKEELTGKDLVKFYTFYNHLEYYNDLLDDLDN
@@ -336,90 +336,89 @@ FEATURES             Location/Qualifiers
                      YKDAMELVEKSLKDKTVSFLTEVYNER*"
                      /product="hypothetical protein"
      CDS             complement(18503..18607)
-                     /inference="ab initio prediction:Prodigal:2.6"
                      /locus_tag="PROKKA_00038"
-                     /protein_id="PROKKA_00038"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00038"
                      /translation="MKYILGLITLGVILFKIYEYFKYRQDEVDTTEDI*"
                      /product="hypothetical protein"
      CDS             complement(18629..18856)
-                     /protein_id="PROKKA_00039"
-                     /inference="ab initio prediction:Prodigal:2.6"
                      /locus_tag="PROKKA_00039"
-                     /product="hypothetical protein"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00039"
                      /translation="MDFYQFLNHENVRVNSITPSQKNFIRENIDYTNLDTVDIDFMNS
                      KQAKKEIEKIIRTKNEEEYDMAMDALSGWEG*"
+                     /product="hypothetical protein"
      CDS             complement(18858..19247)
+                     /locus_tag="PROKKA_00040"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00040"
                      /translation="MMFGKAPEHIMEIIDKEDNILGEDLTLNIDYKGINLTVKRHPHS
                      GHLNGYINVPTNITKEQFNSIEDCSHGGITYDEHEGDYRVLGFDCAHYSDMTPYAVIS
                      FSDSYYRDLKYVLNTLKDMADCLKEGE*"
                      /product="hypothetical protein"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00040"
-                     /protein_id="PROKKA_00040"
      CDS             complement(19341..19514)
-                     /product="hypothetical protein"
+                     /locus_tag="PROKKA_00041"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00041"
                      /translation="MEKVNHEFLAELAKSNSPVLNSKPLQDGDYNIEFDYDGFHFEFS
                      QKNGYWQWKYNAK*"
-                     /protein_id="PROKKA_00041"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00041"
+                     /product="hypothetical protein"
      CDS             complement(19555..20037)
                      /locus_tag="PROKKA_00042"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /protein_id="PROKKA_00042"
+                     /protein_id="NC_025416_PROKKA_00042"
                      /translation="MANEKELIRMVNYLIDNMSMWHINYARAVLIPSEVEKIIKEHEK
                      FDDLLKKRGEWLVKSSDTDNIDDLETYNQIMNNQKDEMMIQEIDIYTQGKTIKVDNEH
                      YSSDELNEVINKIEQSEDIKIKSNYKLLCIDYTKVIGYEVTYASSYEEKFKNDLEKDL
                      *"
                      /product="hypothetical protein"
      CDS             complement(20087..20629)
+                     /locus_tag="PROKKA_00043"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00043"
                      /translation="MDRIIGKHNLTQDLRLGDKVEVYDAHKFKENEDGTIELGDKVTE
                      GIVVDYKGDFTGNTSGLVTLDSSEEELIIGEHNFKLIEEGNLQAVYDSVSKNKVESLS
                      EDYDMYRKLLGVKSGELEDISYELERLIMEYNKKVDNYNGLLTLSKEKARELSLLTGD
                      RKTIPHMKNRRLELGTEAGF*"
                      /product="hypothetical protein"
-                     /protein_id="PROKKA_00043"
-                     /locus_tag="PROKKA_00043"
-                     /inference="ab initio prediction:Prodigal:2.6"
      CDS             complement(20629..21159)
-                     /product="hypothetical protein"
+                     /locus_tag="PROKKA_00044"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00044"
                      /translation="MIYDSIISRTMAVSILNKWIAELITDVDLDKCNFTEEEYGAVVT
                      NSINKIQDVLIEKNYEVTDGELYDIVCTELINPIKNNTEEEQNEKNDLLEHLEDLAFR
                      HDIDLGYVSDGSYNLTVTHWLMQDEFTDVNIKVNKDEDFYTVTIPESKYFWLPITKEN
                      LEMFLTQDPINKGDIE*"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00044"
-                     /protein_id="PROKKA_00044"
-     CDS             complement(21162..21326)
                      /product="hypothetical protein"
+     CDS             complement(21162..21326)
+                     /locus_tag="PROKKA_00045"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00045"
                      /translation="MKNLIKLLLMVVVTILTFSLTYVILKKETNNKRNGVAPFDFSLE
                      DHIHLNKEIK*"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00045"
-                     /protein_id="PROKKA_00045"
+                     /product="hypothetical protein"
      CDS             complement(21329..21616)
-                     /protein_id="PROKKA_00046"
-                     /inference="ab initio prediction:Prodigal:2.6"
                      /locus_tag="PROKKA_00046"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00046"
                      /translation="MANNIWAVVLSIIILLIIMIILWLFLKNKSKNYNGKNKPNSYLD
                      KSEPNKKDGSKVEEAKYREIDAKKEDDENKETEKQYNYDKDKIKNKLKELE*"
                      /product="hypothetical protein"
      CDS             complement(21616..22461)
                      /locus_tag="PROKKA_00047"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /protein_id="PROKKA_00047"
-                     /product="hypothetical protein"
+                     /protein_id="NC_025416_PROKKA_00047"
                      /translation="MGRRLIDNSELNVIKYDGLPDFFSALKKNRVSGRDNSSDTGSYD
                      FTGTHSFNEAYNLMVKGDRESYDMVVKLKKMTDALFRMDKSVKRKPVVAPEGYQPHVP
                      NAIKGLPNSMMSQQRVKAEKKVIDVFYNSSISWMEDPENLAYRGAILLSAIQTLETKG
                      YSINLYLGKLSNSSYNDKLTGFVVNIKHSYQRLNVFKSSFYLVNPSFLRRVSFRVLEV
                      ESDMTDLTHDGYGSVVGKGSYENELKEHLLDNAVIFDSSTGIHINNESSENLRAVKKL
                      FGGRL*"
-     CDS             complement(22474..23592)
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00048"
-                     /protein_id="PROKKA_00048"
                      /product="hypothetical protein"
+     CDS             complement(22474..23592)
+                     /locus_tag="PROKKA_00048"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00048"
                      /translation="MAKQDTIERLERLVEQQMQTTKDLADKLGEKNSNPYEQAIVDAI
                      VEKAGTESREIIITDVKKQIEEYVEEQLNNLPVKIELQQKGKTIKDISGIFHYRYQDI
                      LKLVNQNIPVFLKGGAGSGKNHVLEQVAEALDLDFYFSNAITQEFKLTGFIDANGKFH
@@ -427,45 +426,48 @@ FEATURES             Location/Qualifiers
                      NTMGTGADHIYVGRQQLDGDTLDRFAQVEFDYDNKVEHQLSSNEDLVNFVQKLRYEND
                      EKGLPYVFSMRAIINGSKLDGVMDDEFVVESIIFKSVPKDEINQFISSLPEDNRYTEA
                      TKNLLGIKQEPKQEPRKTQSPSSDSMDFDTIMDKLGLE*"
+                     /product="hypothetical protein"
      CDS             complement(23745..24086)
+                     /locus_tag="PROKKA_00049"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00049"
                      /translation="MGIVLVSKRTDNFIYFCKYYFSDYLPSLGIEVLNHNETSHGTME
                      GVKTYYIANILYEGQELTITIDLEEFNNATSMHNMLEIVNKHTYNCMFMYDMDTHGAK
                      DIDDFFKLMYF*"
                      /product="hypothetical protein"
-                     /protein_id="PROKKA_00049"
-                     /locus_tag="PROKKA_00049"
-                     /inference="ab initio prediction:Prodigal:2.6"
      CDS             complement(24064..24480)
-                     /inference="ab initio prediction:Prodigal:2.6"
                      /locus_tag="PROKKA_00050"
-                     /protein_id="PROKKA_00050"
-                     /product="hypothetical protein"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00050"
                      /translation="MNAKEFMKTQAQVEDYLDKLKITIIEDALSVSKEWSNDSNDLGY
                      ALSSLGESIGLLEDYYNIQVHAHLPEHYKGSKDVISFLEEHFSYDGFVDSMIFNIVKY
                      TTRLGRKDAVDKEVQKIKTYYVRLERNIKYGDSTRV*"
+                     /product="hypothetical protein"
      CDS             complement(24612..24914)
-                     /protein_id="PROKKA_00051"
                      /locus_tag="PROKKA_00051"
                      /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00051"
                      /translation="MEKVELIKQWAKDRNLQTGKPEGQMLKLLEEAGELASGIAKSND
                      HVTRDSVGDIFVVLTVLCLQLDIDIEECIDMAYDEIKDRKGKLINGVFVKEEDLKK*"
                      /product="hypothetical protein"
      CDS             complement(24914..25102)
+                     /locus_tag="PROKKA_00052"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00052"
                      /translation="MEKFQEDYVNIDVRVKAYVRVGYRYEEDITNNLHELVEDNLTVI
                      SDSDNLIIKDTEIKGDIE*"
                      /product="hypothetical protein"
-                     /protein_id="PROKKA_00052"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00052"
      CDS             complement(25146..25307)
                      /locus_tag="PROKKA_00053"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /protein_id="PROKKA_00053"
+                     /protein_id="NC_025416_PROKKA_00053"
                      /translation="MVKPVITLEPEDVKVLLDYLSFLEDDMRNYEGMRELYEELHKKY
                      QLAKGNYSD*"
                      /product="hypothetical protein"
      CDS             complement(25307..27358)
-                     /product="hypothetical protein"
+                     /locus_tag="PROKKA_00054"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00054"
                      /translation="MAITYKQKGLTEQEIINLPKVNKGCIYIGEEDVFLKKKKNNIIN
                      LGSKELFRDIHNIFSFDTATEIHLFLALCGNKEVTNFTGNPYETVEKLVEGVIGENKG
                      RNYKEYIESSREERKEFPLYSSKSRRQIKSKGYVEEKIKELENETRLWGYGARQLDEY
@@ -479,56 +481,54 @@ FEATURES             Location/Qualifiers
                      NKLEKIIDKTYKLKDGRKVKFLPADTVSKLKDEGRMLSHCVGGYANRILKNSCLILLA
                      RLEEDLDNSWFTVEIRITDNGYVLGQQQSIDAYKLPNELKEALEKDIKKINKEEFKEV
                      A*"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00054"
-                     /protein_id="PROKKA_00054"
-     CDS             complement(27438..27701)
-                     /protein_id="PROKKA_00055"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00055"
                      /product="hypothetical protein"
+     CDS             complement(27438..27701)
+                     /locus_tag="PROKKA_00055"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00055"
                      /translation="MSIEKKEEVIAHNEVVFRSLTQGLYVKEVDIYSDVVSYTKDVDE
                      ALAMPNTINFKNSRKYEKLIRNLDLEPLNKIQKVIYETHLEEL*"
+                     /product="hypothetical protein"
      CDS             complement(27898..28476)
+                     /locus_tag="PROKKA_00056"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00056"
                      /translation="MDNLSHYLSILYAILVTVGYIPGLIALVKSDSVKGVSSYFWYLI
                      VATVGISFYNLLLTDATMFQVVSVGLNLTLGIVCLLVASYRKKDYFSIPFIIVFSLLL
                      FLLSDFTALTQTVATITIILAYVTQITTFYKTKSAEGTNRFLFLIIGLGLASLIVSMV
                      LTHTYVHIIATEFVNFVLILICYLQANYYSRG*"
                      /product="hypothetical protein"
-                     /locus_tag="PROKKA_00056"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /protein_id="PROKKA_00056"
      CDS             complement(28469..29062)
-                     /protein_id="PROKKA_00057"
                      /locus_tag="PROKKA_00057"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /product="hypothetical protein"
+                     /protein_id="NC_025416_PROKKA_00057"
                      /translation="MVNKIKDKVIYMGGHILNEAMVDYRDKQHKEVDGIVGVTPYSPH
                      KDKSINDKENAVQEGLAERILRNDFKAMQESDIFVFDILNEGLGTIAELGIVLGMKHQ
                      AQGLVEAYENSIYTTTSENIAEEIKEAKRVLNKPVLCYCSDIRQGHGKPYNDPDRAEF
                      STNQFVYGMVLELTDGEGFISWEEVINRLEKLGEQDG*"
-     CDS             complement(29055..29951)
                      /product="hypothetical protein"
+     CDS             complement(29055..29951)
+                     /locus_tag="PROKKA_00058"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00058"
                      /translation="MKSYTKVKNKGIVLDKFKERGLVVQEKLDGSNASFTVENGELVC
                      FSRRKKLNENETLNGFYDWVHENINVRNTYVSALEKYIIFGEWLVKHKIQYKEEFYNN
                      FYVFDVYDKENEVYLSVEDMNVIAHHLGLKTVKTLLVAKPSHYLNDLKPEEIQELVGK
                      SDMTVKPDKGEGIVIKYLDGKSEYDDYFKLVSNEFKEFSRQKMKTEVKKNESVADYAI
                      TRARMEKMIFRAIEEDRLSEDDLELENFGLIMKQVGQNFVDDIMEEEKENILKIVDKQ
                      IKKKMPHILREILEEKGDTIDG*"
-                     /locus_tag="PROKKA_00058"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /protein_id="PROKKA_00058"
-     CDS             complement(29951..30175)
-                     /protein_id="PROKKA_00059"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00059"
                      /product="hypothetical protein"
+     CDS             complement(29951..30175)
+                     /locus_tag="PROKKA_00059"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00059"
                      /translation="MNYLAKVFINNNWLVKLITIVLLTLFLSGLVYVISAISLFLSTV
                      LNLPGLVVLAFLASVSLILFSIVHNSKEDN*"
+                     /product="hypothetical protein"
      CDS             complement(30244..30984)
-                     /inference="ab initio prediction:Prodigal:2.6"
                      /locus_tag="PROKKA_00060"
-                     /protein_id="PROKKA_00060"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00060"
                      /translation="MAIQLKELDFKLKDYPNVRYNMGEHLVFNEFLEKATTEQLDFCE
                      DFFNDNVEILWNESQAGTGKTMCSVACAYADYLNKNRKLVFIISPVSEDLGSRPGNQT
                      EKEMAYFMGLHDALIELNMNPEQQITEMLMMEDNVKEDKLGDCWVSQISHLFLRGGNL
@@ -536,56 +536,56 @@ FEATURES             Location/Qualifiers
                      KNYEGAVFHNFTVNFRSKLAQYADNFKW*"
                      /product="hypothetical protein"
      CDS             complement(31036..31650)
-                     /protein_id="PROKKA_00061"
-                     /inference="ab initio prediction:Prodigal:2.6"
                      /locus_tag="PROKKA_00061"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00061"
                      /translation="MKKINSVIKGEGKKVQTTDVRKISYYVKDYNPCMTVDDANDYNA
                      TSQYLVSDNGKFIAKYNKDMNAVGFYEESGDTVKHLTHTTPERLEGTVFTIEEETEID
                      LINDTLPQGDILIKFSDGSIYLPDNESVLDSVNYLADNDWDSVDDIIYTGLSKGNSEN
                      CIVDFNYNNYDIGYDDVEDEDVCDNYPECECSNYCSSTGEYIGN*"
                      /product="hypothetical protein"
      CDS             complement(31666..32091)
-                     /inference="ab initio prediction:Prodigal:2.6"
                      /locus_tag="PROKKA_00062"
-                     /protein_id="PROKKA_00062"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00062"
                      /translation="MQDSVNIYTDGSSSYNKGKVGSGAVLVSKEGNIISEISKSVDKP
                      GLIKYNNVAGEILACCYGIEEAIKLGYNQAIVYIDYIGLIHWYEGTWSARNILSKTYI
                      NMIREYQKVIDINFVKVKSHSNDKWNDYADNLAKKSIDI*"
                      /product="hypothetical protein"
      CDS             complement(32081..32272)
+                     /locus_tag="PROKKA_00063"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00063"
                      /translation="MKKGVFTVIADGFKFNVIAKDKKEVQEHCFKCFDFNYISVSFCR
                      EVYSDCEFPQFMEDYKYAG*"
                      /product="hypothetical protein"
-                     /protein_id="PROKKA_00063"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00063"
      CDS             complement(32295..32936)
-                     /product="hypothetical protein"
+                     /locus_tag="PROKKA_00064"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00064"
                      /translation="MENNNLVNFLMTTDDIDDTIEMVDSFELQDINKVLGEDTFLTIM
                      EITDSLPDNQYKIVLLSSLDKLLNTDRKELVEYDEEFPTIRKHNVSELKRDTVNSVID
                      SYMNTNVEILYTEYPTISNYSVVVDSVKVLNTLYLIESKNGKIEATLSEDGEDLLEYI
                      SEEGYSVTDILNKFDDVEDLFDEDDSLINFFSDIDEGKNKTIKSFIELVINLK*"
-                     /protein_id="PROKKA_00064"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00064"
+                     /product="hypothetical protein"
      CDS             complement(32926..33156)
-                     /protein_id="PROKKA_00065"
                      /locus_tag="PROKKA_00065"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /product="hypothetical protein"
+                     /protein_id="NC_025416_PROKKA_00065"
                      /translation="MDEKKESKPLNLQKIRVEKGHTLRSLASEIGVHYSLISYWEYGK
                      KKPRSANLMRLEKALNTPGKELFKELEEDDGE*"
+                     /product="hypothetical protein"
      CDS             complement(33159..33386)
+                     /locus_tag="PROKKA_00066"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00066"
                      /translation="MNKFKRWFRINVLKKETLLFKVYWRYESPSLKKPHVFHIELYAK
                      SKAEARNKSQEYILKNAKASEDFKFLKVEEK*"
                      /product="hypothetical protein"
-                     /protein_id="PROKKA_00066"
-                     /locus_tag="PROKKA_00066"
-                     /inference="ab initio prediction:Prodigal:2.6"
      CDS             complement(33501..34193)
                      /locus_tag="PROKKA_00067"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /protein_id="PROKKA_00067"
+                     /protein_id="NC_025416_PROKKA_00067"
                      /translation="MKKTIFATLALGTAITFGGIATNEASADEIDYNKLAEQAKSNSS
                      EVNTKPIQAGNYDFSFSDGEFTYHFYNYNGNFGYEYHSGSTQVDNTVSRLAGEEQTPE
                      QKVDQQQAQFDIQNKQDTKKEVQTTSAPVQKETKQPTQSTSSTGGSVAEQIRQAGGDE
@@ -593,37 +593,36 @@ FEATURES             Location/Qualifiers
                      RALAYHNAHNSY*"
                      /product="hypothetical protein"
      CDS             complement(34391..35185)
-                     /inference="ab initio prediction:Prodigal:2.6"
                      /locus_tag="PROKKA_00068"
-                     /protein_id="PROKKA_00068"
-                     /product="hypothetical protein"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00068"
                      /translation="MRKSVVISGVLGFLAIIGFIILLMCITKIPQGHVGVVYSVNGVK
                      ENTKSPGWHLTAPFDKVNKYPTKTQTHKYKDLNVATSDGKNLQMDIDVSYKVDATKAV
                      DLFNRFGSADIEELEKGYLRSRVQDNVRQAVSKYSVIDAFGVKTGEIKKDTLDSLNDN
                      LEKQGFVIEDIALSSPKADKNTQKAIDSRVKANQELERTKVDKQIAEQNAKKKEVEAN
                      GDKKANEIRESSLSDKILRQQLIEKWDGKQPIQIGGDGTIVDVTGK*"
+                     /product="hypothetical protein"
      CDS             complement(35185..35493)
                      /locus_tag="PROKKA_00069"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /protein_id="PROKKA_00069"
+                     /protein_id="NC_025416_PROKKA_00069"
                      /translation="MALFLTYFAIFIVFLVLVGFGISYVFDFLSLKEKKSNIRKQYRE
                      LVRQGTLDEYGLEQYVKYKKQFLNDRRQSIVTRADKQEIDQEEKALNSLIKEIEKGEM
                      *"
                      /product="hypothetical protein"
      CDS             complement(35607..36227)
-                     /protein_id="PROKKA_00070"
-                     /inference="ab initio prediction:Prodigal:2.6"
                      /locus_tag="PROKKA_00070"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00070"
                      /translation="MENIIGKKIEKLFVEEYVGSDKIKGKLYLCLCDCGMDRVLSKSQ
                      LYYYKSCGCMKSRNGSKKHPEYTVWRKMKERCYNKNQDSYPYYGGRGIEVCDRWKNSF
                      ESFLYDMGKRPSDKYQLDRKDNDGNYSPENCRWTTRSENIVNRPSKLEGLKNIQERTN
                      GKYRVSITRNNIRYQSYQVDSIKEAINLRDRMLKEYEETKSITIFK*"
                      /product="hypothetical protein"
      CDS             complement(36290..37780)
-                     /protein_id="PROKKA_00071"
                      /locus_tag="PROKKA_00071"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /product="hypothetical protein"
+                     /protein_id="NC_025416_PROKKA_00071"
                      /translation="MAKTQAEINKRLDAYAKGTVDSPYRVKKATSYDPSFGVMEAGAI
                      DADGYYHAQCQDLITDYVLWLTDNKVRTWGNAKDQIKQSYGTGFKIHENKPSTVPKKG
                      WIAVFTSGSYEQWGHIGIVYDGGNTSTFTILEQNWNGYANKKPTKRVDNYYGLTHFIE
@@ -633,105 +632,106 @@ FEATURES             Location/Qualifiers
                      RSMVLHTGFNPVTQGRPSQAIMNKLKDYFIKQIKNYMDKGTSSSTVVKDGKTSSASTP
                      ATRPVTGSWKKNQYGTWYKPENATFVNGNQPIVTRIGSPFLNAPVGGNLPAGATIVYD
                      EVCIQAGHIWIGYNAYNGNRVYCPVRTCQGVPPSHVPGVAWGVFKG*"
+                     /product="hypothetical protein"
      CDS             complement(37780..38283)
+                     /locus_tag="PROKKA_00072"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00072"
                      /translation="MANETKQPKVVGGINLSTRTKSKTFWVAIISAVALFANQITGAF
                      GLDYSAQIEQGVNIVGSILTLLAGLGIIVDNNTKGLKDSDIVQTDYLKPRDSKDPNEF
                      VQWQANANNASTFEIDSYENNAEPDTDDSDEVPAIEDEIDGGSAPSQDEEDTEEHGKV
                      FAEEEVK*"
                      /product="hypothetical protein"
-                     /locus_tag="PROKKA_00072"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /protein_id="PROKKA_00072"
      CDS             complement(38368..38553)
-                     /inference="ab initio prediction:Prodigal:2.6"
                      /locus_tag="PROKKA_00073"
-                     /protein_id="PROKKA_00073"
-                     /product="hypothetical protein"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00073"
                      /translation="MASAKQLYYTESLVGKAIINNKVSNKEEVWDKLELLPETKLEDL
                      DNKQMSEVIKKLNQINE*"
+                     /product="hypothetical protein"
      tRNA            complement(38715..38786)
-                     /protein_id="PROKKA_00074"
                      /locus_tag="PROKKA_00074"
-                     /product="tRNA-Trp(cca)"
+                     /protein_id="NC_025416_PROKKA_00074"
                      /translation="TPLV*LVVQGSPKPLVFVQIKEGV"
+                     /product="tRNA-Trp(cca)"
                      /note="*inference: COORDINATES:profile:Aragorn:1.2"
      tRNA            complement(38793..38865)
-                     /note="*inference: COORDINATES:profile:Aragorn:1.2"
+                     /locus_tag="PROKKA_00075"
+                     /protein_id="NC_025416_PROKKA_00075"
                      /translation="GFLAQMVEH*IEALGVIGSNPIET"
                      /product="tRNA-Phe(gaa)"
-                     /protein_id="PROKKA_00075"
-                     /locus_tag="PROKKA_00075"
-     tRNA            complement(38871..38946)
-                     /product="tRNA-Asp(gtc)"
-                     /translation="WLIGVTG*HTALSRQRVRVRVSYGS"
                      /note="*inference: COORDINATES:profile:Aragorn:1.2"
-                     /protein_id="PROKKA_00076"
+     tRNA            complement(38871..38946)
                      /locus_tag="PROKKA_00076"
+                     /protein_id="NC_025416_PROKKA_00076"
+                     /translation="WLIGVTG*HTALSRQRVRVRVSYGS"
+                     /product="tRNA-Asp(gtc)"
+                     /note="*inference: COORDINATES:profile:Aragorn:1.2"
      CDS             complement(40100..40318)
-                     /product="hypothetical protein"
-                     /translation="MKRQKMFYSSLICKECGNVFKVPRKRANKREEGHIKDIYCIKCC
-                     KITKHIEDNRSEAERRWDAIQEELTKDN*"
-                     /protein_id="PROKKA_00077"
                      /locus_tag="PROKKA_00077"
                      /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00077"
+                     /translation="MKRQKMFYSSLICKECGNVFKVPRKRANKREEGHIKDIYCIKCC
+                     KITKHIEDNRSEAERRWDAIQEELTKDN*"
+                     /product="hypothetical protein"
      CDS             complement(40796..41005)
+                     /locus_tag="PROKKA_00078"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00078"
                      /translation="MSKHIEITMSSGAKYFLVSTDEKSYNRQDIDYMLRGMDETSIKV
                      YTESAITSPQVYINPNRIESFKIVF*"
                      /product="hypothetical protein"
-                     /locus_tag="PROKKA_00078"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /protein_id="PROKKA_00078"
      CDS             complement(41018..41224)
-                     /protein_id="PROKKA_00079"
-                     /inference="ab initio prediction:Prodigal:2.6"
                      /locus_tag="PROKKA_00079"
-                     /product="hypothetical protein"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00079"
                      /translation="MIVSIDKDVAVNSEKQSAIYVQLERLDEKISELAESTKTKDTKK
                      KDTTEKVLLLVLGAILSFVFNKFA*"
+                     /product="hypothetical protein"
      CDS             42249..42515
                      /locus_tag="PROKKA_00080"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /protein_id="PROKKA_00080"
-                     /product="hypothetical protein"
+                     /protein_id="NC_025416_PROKKA_00080"
                      /translation="MTYFIFGGIVSNVALTVTDKFLLKKEDPLPEYVLKKVEINDKEI
                      RIIKKIIESNYGITAEEIKVRAKAQRRVEEDSKKEDYNENKERN*"
-     CDS             42493..42771
                      /product="hypothetical protein"
+     CDS             42493..42771
+                     /locus_tag="PROKKA_00081"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00081"
                      /translation="MKTKKEIKEQRKELKDGATSVSLVKKGDKRIASPSRICSLCGQQ
                      LSGMNYTKGKALSKVNHFHLQYSKYIYFDICADINNCYKNLRKRGEMD*"
-                     /protein_id="PROKKA_00081"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00081"
-     CDS             42852..43178
                      /product="hypothetical protein"
+     CDS             42852..43178
+                     /locus_tag="PROKKA_00082"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00082"
                      /translation="MNGIGKLMYEFNKKVDNKEIEVKDPNDLYKLFVIFSQMQNMVNE
                      TSEGGAIPQLSRPQQELFDEITTEDSNGESTVDLQKISEMSAEDITAMISEKEKVMNE
                      ENSETF*"
-                     /protein_id="PROKKA_00082"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00082"
-     CDS             43193..43546
                      /product="hypothetical protein"
+     CDS             43193..43546
+                     /locus_tag="PROKKA_00083"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00083"
                      /translation="MDGKELIKIAQETFQTEKITREQIDHIINMLNPSTYMLKYHTLR
                      GHPITFSIPNRDRSKAQAHRPWQTRIVNDTHPNKAVIKSRQLGLSEMGVMEMVHFADM
                      HSYANAKCLYTFPRL*"
-                     /protein_id="PROKKA_00083"
-                     /locus_tag="PROKKA_00083"
-                     /inference="ab initio prediction:Prodigal:2.6"
-     CDS             43784..44554
                      /product="hypothetical protein"
+     CDS             43784..44554
+                     /locus_tag="PROKKA_00084"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00084"
                      /translation="MPRKKTHEEFVEQVKDIAGNEYTVIGHYEYANQNIKMFHNECKE
                      EFEIRPNNFLQGKRCSACRSKRISKTQAKPLSKVKRQLKEKHNGTIEIIGEYKNTHTK
                      TDFKCLTCNHIFSSEPNSVLRLSGCPKCKVSKGEKLIAEFLKENNIRFKEQKRFKDCV
                      HKRPLIFDFYLLDLNTLIEYDGLQHSKPIEYFGGVKAFEELKYRDSLKDDYAKRNNIR
                      MIRVSYKQKEKEIIEELESVLGVVTRQESKAESSTPKS*"
-                     /protein_id="PROKKA_00084"
-                     /locus_tag="PROKKA_00084"
-                     /inference="ab initio prediction:Prodigal:2.6"
+                     /product="hypothetical protein"
      CDS             44621..46081
-                     /inference="ab initio prediction:Prodigal:2.6"
                      /locus_tag="PROKKA_00085"
-                     /protein_id="PROKKA_00085"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00085"
                      /translation="MKKFVQSRLNPVLEKEYFRDIVDWDKDSLGFKKIRNSSLFFRTS
                      SKASTVEGVDIDYLSLDEYDRVNLLAESSALESMSSSPFKIVRRWSTPSVPGMGIHKL
                      YQQSDQWYYGHRCQHCDYLNEMSYNDYNPDNLEESGNMLCVNPEGVDEQAKTVQNGSY
@@ -743,28 +743,28 @@ FEATURES             Location/Qualifiers
                      TRIKELLKEGNGTSFGSTFVSTDYNQEGNKQFYFDE*"
                      /product="hypothetical protein"
      CDS             46074..46895
+                     /locus_tag="PROKKA_00086"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00086"
                      /translation="MNRGEIDLTDKLFYGTISNEEINKSVLNLLLGEELSLDYVSKNS
                      DTLDVKYEHVYKSLGFDNFFDCFLYANREPEIVHKGGDKNLGGLNKVKRTVIRNGKEM
                      EMTVYEDGNKENDSKEKQEGKEEVSRSAVGARAISNGEEGKVNPKKVANSLSSLSKKG
                      VDVSHINTNSSLYKEFVDDNGDTLGITSFKRTENDIILESYASSPDSDGVGARAIMEL
                      LRLSIKENKNAVVYDIELPEAVEYLKTLGFKPNKDGYILRKKDVKQFLGDYSDFI*"
                      /product="hypothetical protein"
-                     /protein_id="PROKKA_00086"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00086"
      CDS             47052..47531
-                     /product="hypothetical protein"
+                     /locus_tag="PROKKA_00087"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00087"
                      /translation="MTLEENKLTLEESITPLSKEEKEDSIKEFSSLLCEMVNRLYKSY
                      NVFRQDPMDETQRLDGSLMVFQSRLNDPLTGDLHDKMYKLAFSKRIDIFEANKQFRKD
                      VEAGKAIELGDVAIIDTALSNILSGNEFQGSISFMLRKDFEEKERIRKEEEEKLNNL*
                      "
-                     /locus_tag="PROKKA_00087"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /protein_id="PROKKA_00087"
+                     /product="hypothetical protein"
      CDS             47624..48775
-                     /protein_id="PROKKA_00088"
                      /locus_tag="PROKKA_00088"
                      /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00088"
                      /translation="MIAVFVVIMTIFFNKYQDAKEDKDRYQRLVEIYKKADDNDGETK
                      KKYVKRLNKAEEELQKVKKETNYKDYNKKSNKERQKEDKETREKIYDVTGDDDLILVK
                      NNIEFSDKVDKPEILISEDGIGTITVPVDSGYEKQTVGSIITSVLGSPFLSPDSNSIG
@@ -774,24 +774,24 @@ FEATURES             Location/Qualifiers
                      TEPTEPESPSEPDDKVDEEDKNEDTTDDKQPTEQPDDNNIDNEDKTEEE*"
                      /product="hypothetical protein"
      CDS             48917..49201
+                     /locus_tag="PROKKA_00089"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00089"
                      /translation="MIFVHSKFSSKNVFVLYVIYAIIGIGTYIVLTMFQTTSVLIKND
                      VIDSIENTEHYIGFNDPIIIFTISFIGAILGGIWYKMMKIIKKSNFKDKK*"
                      /product="hypothetical protein"
-                     /protein_id="PROKKA_00089"
-                     /locus_tag="PROKKA_00089"
-                     /inference="ab initio prediction:Prodigal:2.6"
      CDS             49279..49590
-                     /product="hypothetical protein"
+                     /locus_tag="PROKKA_00090"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00090"
                      /translation="MQDNWIEIVDYYRQIGGKHVAVFIALNKVKYMILEATKDNKVIL
                      VDKDNNILLEDYDIVMESKKMFYYIEEPFEVKINIPQHIRDVTYNNTVVLTTVRGSRG
                      D*"
-                     /locus_tag="PROKKA_00090"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /protein_id="PROKKA_00090"
+                     /product="hypothetical protein"
      CDS             49783..51285
-                     /inference="ab initio prediction:Prodigal:2.6"
                      /locus_tag="PROKKA_00091"
-                     /protein_id="PROKKA_00091"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00091"
                      /translation="MMDTNPEFRDKRSYMKNEHNLHDVLKKFGNNPILNAIILTRSNQ
                      VAMYCQPARYSEKGLGFEVRLRDLDAEPGRKEKEEMKRIEDFIVNTGKDKDVDRDSFQ
                      TFCKKIVRDTYIYDQVNFEKVFNKNNKTKLEKFIAVDPSTIFYATDKKGKIIKGGKRF
@@ -803,9 +803,9 @@ FEATURES             Location/Qualifiers
                      SEESQSTDSSNADKEIGTDAQIKGDDNVYRTQTSNKGQGRKGEKSSDFKH*"
                      /product="hypothetical protein"
      CDS             51512..52252
-                     /protein_id="PROKKA_00092"
-                     /inference="ab initio prediction:Prodigal:2.6"
                      /locus_tag="PROKKA_00092"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00092"
                      /translation="MDLKKSVSTASDTNEYSIVSGWASTPSMDLQNDIVNPKGIDIEY
                      FKSQGYINYEHQSDKVVGIPTENCYVDIEKGLFIEAKLWKNDENVVKMLDLAEKLEKS
                      GSGRRLGFSIEGAVKKRNINDNRVIDEVMITGVALVKNPANPEATWESFMKSFLTGHG
@@ -813,19 +813,23 @@ FEATURES             Location/Qualifiers
                      VLTLQLAKGLSRKDAELAVMDINKQKLE*"
                      /product="hypothetical protein"
      CDS             52271..53230
+                     /locus_tag="PROKKA_00093"
+                     /inference="ab initio prediction:Prodigal:2.6,similar to
+                     AA sequence:UniProtKB:P0C6U3"
+                     /protein_id="NC_025416_PROKKA_00093"
                      /gene="1a"
-                     /product="Replicase polyprotein 1a"
                      /translation="MSKEMQNILEEYDKLNAQEAVSKSVEDDEKNTVESIEEQVAETT
                      EEPDKEPEKVSEEDAKEAQEQGEKVESEEVAEDNEDEEVEKSAKESKDPVDQKDTKTE
                      NKDNEKRKNKKDKKEDSESDDEDKDTDDDKDKKEDKKEKTSKSISDEDITTVFKSILT
                      SFENLNKEKENFATKEDLSEVSKSINELSAKISEIQAEDVSKSVDTGEEEAVEKSVTS
                      TNGEQEKVEGYVSKSVDTEEQAETGEAKSEDAEEVQEDNTFKGLSQEERTKFMDSYKA
                      QAKDPRASKHDLQSAYQSYLNINTDPTNASEKDIKTVKDFAQI*"
-                     /protein_id="PROKKA_00093"
-                     /locus_tag="PROKKA_00093"
-                     /inference="ab initio prediction:Prodigal:2.6,similar to
-                     AA sequence:UniProtKB:P0C6U3"
+                     /product="Replicase polyprotein 1a"
      CDS             53346..54737
+                     /locus_tag="PROKKA_00094"
+                     /inference="ab initio prediction:Prodigal:2.6,similar to
+                     AA sequence:UniProtKB:P85226"
+                     /protein_id="NC_025416_PROKKA_00094"
                      /translation="MTIEKNLSDVQQKYADQFQEDVVKSFQTGYGITPDTQIDAGALR
                      REILDDQITMLTWTNEDLIFYRDISRRPAQSTVVKYDQYLRHGNVGHSRFVKEIGVAP
                      VSDPNIRQKTVSMKYVSDTKNMSIASGLVNNIADPSQILTEDAIAVVAKTIEWASFYG
@@ -836,32 +840,28 @@ FEATURES             Location/Qualifiers
                      DKNETLPETADVFVGEMSPQVVHLFELLPMMKLPLAQINASITFAVLWYGALALRAPK
                      KWARIKNVRYIAV*"
                      /product="Putative major capsid protein precursor"
-                     /protein_id="PROKKA_00094"
-                     /inference="ab initio prediction:Prodigal:2.6,similar to
-                     AA sequence:UniProtKB:P85226"
-                     /locus_tag="PROKKA_00094"
      CDS             54829..55125
-                     /protein_id="PROKKA_00095"
-                     /inference="ab initio prediction:Prodigal:2.6"
                      /locus_tag="PROKKA_00095"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00095"
                      /translation="MLYYKKLLNTKMATIYGTVDIDKDGVVKGLTKEQEKEFANVPGF
                      EFEEEKKTTRKQSASTSKEEEPKEEEKKASTRKSTSTTRKSTARKTTAKKDENK*"
                      /product="hypothetical protein"
      CDS             55138..56046
                      /locus_tag="PROKKA_00096"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /protein_id="PROKKA_00096"
-                     /product="hypothetical protein"
+                     /protein_id="NC_025416_PROKKA_00096"
                      /translation="MVNSMFGGDLDPYEKSLNYEYPYHPSGNPKHIDVSEIDNLTLAD
                      YGWSPDAVKAYMFGIVVQNPDTGQPMGDEFYNHILERAVGKAERALDISILPDIQHEM
                      RDYHETEFNSYMFVHAYRKPILQVENLQLQFNGRPIYKYPANWWKVEHLAGHVQLFPT
                      ALMQTGQSMSYDAVFNGYPQLAGVYPPSGATFAPQMIRLEYVSGMLPRKKAGRNKPWE
                      MPPELEQLVIKYALKEIYQVWGNLIIGAGIANKTLEVDGITETIGTTQSAMYGGASAQ
                      ILQINEDIKELLDGLRAYFGYNMIGL*"
+                     /product="hypothetical protein"
      CDS             56060..56938
-                     /protein_id="PROKKA_00097"
-                     /inference="ab initio prediction:Prodigal:2.6"
                      /locus_tag="PROKKA_00097"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00097"
                      /translation="MEKPYMIGANSNPNIINKSTTYTTTTQADEQDKPKYTTRLEFDT
                      IDMIRFINDRGIKVLWEEAYFCPCLNPDTGHPRVDCPRCHGKGIAYLPPKETIMAIQS
                      QEKGTNQLDIGILDTGTAIGTTQLEKRISYRDRFTVPEVLMPQQMIYFVNKDRIKKGI
@@ -870,15 +870,18 @@ FEATURES             Location/Qualifiers
                      ASNPSNLGGFFGGAFK*"
                      /product="hypothetical protein"
      CDS             56938..57558
-                     /protein_id="PROKKA_00098"
                      /locus_tag="PROKKA_00098"
                      /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00098"
                      /translation="MPVHGKRPNLFKNKNYKQVGKRTIDGMRSEVLDKLQATAQQVEN
                      TSIKRMPTYLQVTEKKLEKEGVVDLKKAFAHSSKKKTSKDGGWYLTVPIRIKTSRMNN
                      STYQDMRTLKVDRGTGSVSKITDYLEGRRKNVSHPSMKPEPMTHNMTKVKRGKQSSYF
                      IFRTVSSKSPASSWILNRDKVNENNFSKTTLKTVKQLMNWKMKNLN*"
                      /product="hypothetical protein"
      CDS             57577..58413
+                     /locus_tag="PROKKA_00099"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00099"
                      /translation="MAITSVDSYLLSEIKPRLNTVLENCYIIDEVLKDFDYQTRESFK
                      EAFCGKNAQHEVTVGFNFPKFKNNYEAHYLIQLGQGQETKNSLGSIQSSYFEATGDTL
                      VESSTAIREDDKLVFTVSKPIGELIKVEDIEFAKYDNLQVEGNKVSFKYQTNEDYENY
@@ -886,21 +889,18 @@ FEATURES             Location/Qualifiers
                      QQTFQLQNLSFGDIAPIIEDGDSMIFGRPTIIKYTSSLDLDYTITQDINKLTFKERKD
                      WK*"
                      /product="hypothetical protein"
-                     /protein_id="PROKKA_00099"
-                     /locus_tag="PROKKA_00099"
-                     /inference="ab initio prediction:Prodigal:2.6"
      CDS             58415..58630
                      /locus_tag="PROKKA_00100"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /protein_id="PROKKA_00100"
-                     /product="hypothetical protein"
+                     /protein_id="NC_025416_PROKKA_00100"
                      /translation="MARKKTPENNTPKFNGYVHIDTFLDTAKTLFNMRDSQVAGFKAY
                      MEGSHYLFSEQEFLPSLEKYLGRKLDI*"
+                     /product="hypothetical protein"
      CDS             58657..60420
+                     /locus_tag="PROKKA_00101"
                      /inference="ab initio prediction:Prodigal:2.6,similar to
                      AA sequence:UniProtKB:P85225"
-                     /locus_tag="PROKKA_00101"
-                     /protein_id="PROKKA_00101"
+                     /protein_id="NC_025416_PROKKA_00101"
                      /translation="MAVEPFPRRPITRPHASIEVDTSGIGGSAGSSEKVFCLIGQAEG
                      GEPNTVYELRNYAQAKRLFRSGELLDAIELAWGSNPNYTAGKILAMRIEDAKPATAEV
                      GGLKVTSKIYGNVANNIQVGLEKNTLSDSLRLRVIFQDDRFNEVYDNIGNIFTIKYKG
@@ -914,72 +914,72 @@ FEATURES             Location/Qualifiers
                      PIRSFKKISVSLVYKQQTLQA*"
                      /product="Putative tail sheath protein"
      CDS             60493..60921
-                     /product="Virion protein 5"
-                     /translation="MASEAKQTVHTGNTVLLMIKGKPVGRAQSASGQREYGTTGVYEI
-                     GSIMPQEHVYLRYEGTITVERLRMKKENFADLGYASLGEEILKKDIIDILVVDNLTKQ
-                     VIISYHGCSANNYNETWQTNEIVTEEIEFSYLTASDKART*"
-                     /protein_id="PROKKA_00102"
                      /locus_tag="PROKKA_00102"
                      /inference="ab initio prediction:Prodigal:2.6,similar to
                      AA sequence:UniProtKB:P85229"
+                     /protein_id="NC_025416_PROKKA_00102"
+                     /translation="MASEAKQTVHTGNTVLLMIKGKPVGRAQSASGQREYGTTGVYEI
+                     GSIMPQEHVYLRYEGTITVERLRMKKENFADLGYASLGEEILKKDIIDILVVDNLTKQ
+                     VIISYHGCSANNYNETWQTNEIVTEEIEFSYLTASDKART*"
+                     /product="Virion protein 5"
      CDS             61008..61148
-                     /protein_id="PROKKA_00103"
                      /locus_tag="PROKKA_00103"
                      /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00103"
                      /translation="MTNKRKTIGKMSNTRATWNINPVTKVKKDKTKYSRKNKHKGLDN
                      YN*"
                      /product="hypothetical protein"
      CDS             61191..61643
-                     /protein_id="PROKKA_00104"
-                     /inference="ab initio prediction:Prodigal:2.6"
                      /locus_tag="PROKKA_00104"
-                     /product="hypothetical protein"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00104"
                      /translation="MSTFWSKRRTTGKDRQVKKHYTQMSLQEKKQCVKLLQDTINTHK
                      YLELSNHCKTKIKNEINFSNLVRFIFKDRNAPFNIIEYNITDFHGKKQRRIIFKSPTI
                      VTIEGVSSYQYLVINLEDGKIITTYYNGITDTHKTLDLDYYDKGLTIK*"
+                     /product="hypothetical protein"
      CDS             61656..61850
-                     /protein_id="PROKKA_00105"
                      /locus_tag="PROKKA_00105"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /product="hypothetical protein"
+                     /protein_id="NC_025416_PROKKA_00105"
                      /translation="MGLTIVNGYFFLSSIIFIVVSILNGKGTTTEKSLAMSQILVIIT
                      PIQFLAFLIINGIYWSLKYM*"
+                     /product="hypothetical protein"
      CDS             61866..62018
+                     /locus_tag="PROKKA_00106"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00106"
                      /translation="MEIYIVIDLRGSTEEETNMDFKAFRKLQDAITYVDGSGNRDLHL
                      MPLELE*"
                      /product="hypothetical protein"
-                     /protein_id="PROKKA_00106"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00106"
      CDS             62086..62397
+                     /locus_tag="PROKKA_00107"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00107"
                      /translation="MSQDKLRAIYTEMKVELHKFPKEVDVTSKSTAIAINQILDKFKT
                      LTEQAGKITRKYLEGQEILTIDYEYYDSLQEYYIYLLRNSEKIEQSLQEITKRTGEYV
                      K*"
                      /product="hypothetical protein"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00107"
-                     /protein_id="PROKKA_00107"
      CDS             62529..62987
-                     /product="hypothetical protein"
+                     /locus_tag="PROKKA_00108"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00108"
                      /translation="MAEEIKKEQDVQETTKEDKKDVSKMTPEEIDKLKYQDKKEKEQV
                      INKVIKGVNDTWEKEYNFEELDLRFKVKIKLPNAREQGNIFALRSAYLGGMDMYQTDQ
                      VIRAYQMLATLQEVGIEVPKEFQDPDDIYNLYPLTVMYEDWLGFLNSFRY*"
-                     /locus_tag="PROKKA_00108"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /protein_id="PROKKA_00108"
-     CDS             63031..63567
-                     /protein_id="PROKKA_00109"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00109"
                      /product="hypothetical protein"
+     CDS             63031..63567
+                     /locus_tag="PROKKA_00109"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00109"
                      /translation="MESIVKQPLSRNLWAIMKEFNVLPTEQRFKDLDDYQIEFIIGNM
                      NRDVYEHNKQLKQAQKGGKFDSQFEDDDSSWWNESHEDFDPVPDFLDADDLAQQMEAK
                      LSDRDKEERAKRNDAELNDETEGLTTQHLAMMEYIRRKQEELDDEVGNGKTSEDDATI
                      SQESVNKALEDLDDDWYM*"
+                     /product="hypothetical protein"
      CDS             63623..67678
-                     /protein_id="PROKKA_00110"
-                     /inference="ab initio prediction:Prodigal:2.6"
                      /locus_tag="PROKKA_00110"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00110"
                      /translation="MAMNDDYRLVLSGDSSDLENSLKAIELYMDSLESKNIDAPLDNF
                      LKKLKVIAKEVKNVQNSMDKQEGKSVISSKDMDESIKSTQSATKNINELKKALDDLQK
                      ENISKGIAPDPEVEKAYAKMGKVVDETQEKLEKMSSQKIGSDASIQNRIKEMKTLNQV
@@ -1006,7 +1006,9 @@ FEATURES             Location/Qualifiers
                      PEETGDIIGGRIREVLDSNMDIFANEHKRSY*"
                      /product="hypothetical protein"
      CDS             67757..70183
-                     /product="hypothetical protein"
+                     /locus_tag="PROKKA_00111"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00111"
                      /translation="MRRIRRPKVRIEIVTDDNTFTLRFEDTRDYNGDEFGAKLLGFQT
                      KNSMEDDSSVFQINMAGDTYWDKLVMANDIIRIFITPNDDPNDKEGRQERLIQVGMVS
                      QVSKVGSYGNDQTQFRITGQSFVKPFMKFGLGVIQEVQAVLPEVGWLIDGDGDNEVKF
@@ -1022,13 +1024,11 @@ FEATURES             Location/Qualifiers
                      HDPSFVQPGNRHYKYQCTWYAYNRRGQLGIPVPLWGDAADWIGGAKGAGYGVGRTPKQ
                      GACVIWQRGVQGGSAQYGHVAFVEKVLDGGKKIFISEHNYATPNGYGTRTIDMSSAIG
                      KNAQFIYDKK*"
-                     /protein_id="PROKKA_00111"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00111"
+                     /product="hypothetical protein"
      CDS             70197..71084
-                     /inference="ab initio prediction:Prodigal:2.6"
                      /locus_tag="PROKKA_00112"
-                     /protein_id="PROKKA_00112"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00112"
                      /translation="MATDKEAKDVIDKFIDNVFNFDVLTMERVKEKDAEIKKITTDDM
                      YEKVVYIRPYVGVIQSLNPQHVQYESFSNNGTDIEAELSFRKVSYLVDKGSIPTDSLS
                      TLTVHLVERNQELLIDYFDEIQDVLYGEYMEEEYVFDEDVPLSTILALDLNDNLKSLS
@@ -1037,7 +1037,10 @@ FEATURES             Location/Qualifiers
                      DYWNEFNGRVMRFDEEVYI*"
                      /product="hypothetical protein"
      CDS             71084..73630
-                     /product="Tail fiber protein"
+                     /locus_tag="PROKKA_00113"
+                     /inference="ab initio prediction:Prodigal:2.6,similar to
+                     AA sequence:UniProtKB:A8E283"
+                     /protein_id="NC_025416_PROKKA_00113"
                      /translation="MVVRFQSSMGRSLKRVDSDDLNVKGLVLATVSKINYKYQSVEVK
                      VNNLTLGSRIGDDGSLAVPYPKSFIGRTPEGSVFGTKPLITEGSVVLIGFLNDDINSP
                      IILSVYGDNEQNKMINTNPLDGGKFDTDSVYKYSSALYEILPSLNYKYDDGEGTSIKT
@@ -1053,43 +1056,40 @@ FEATURES             Location/Qualifiers
                      SYIQTNFTSLNGEPIPSLDDVLNHFGTKVKYYIETKRPFDANMDKELLTQLKSKGLIG
                      IGSERFQVIIQSFARESLLNIHNQFSNIPLAYLTSTFSESEMDDCLSYGSYAIAPKYT
                      TITKELVDLAHSKGLKVHAWTVNTKEEMQSLIQMGVDGFFTNYLDEYKKI*"
-                     /protein_id="PROKKA_00113"
-                     /inference="ab initio prediction:Prodigal:2.6,similar to
-                     AA sequence:UniProtKB:A8E283"
-                     /locus_tag="PROKKA_00113"
+                     /product="Tail fiber protein"
      CDS             73737..74528
                      /locus_tag="PROKKA_00114"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /protein_id="PROKKA_00114"
-                     /product="hypothetical protein"
+                     /protein_id="NC_025416_PROKKA_00114"
                      /translation="MPQSDGISNLHRIALRFPKEGGGYDMYRFKVNPENYTIDSPQRT
                      TAIKTKSDIVIEDYGKDIEVINFTGTTGFRPVREADGLKTGKQKMEELQSRVSEYAMQ
                      GGSGNVSGSYLQFFNFTDDSYYKVHLAPQGLKVTRSKDEPLLFRYEITLVVIGSLTEA
                      DRSAVTTEEFGNVKPNASQRVDEGIKELDKNARKTRDRNNQEISRRENTIPKSTGDNT
                      NEGNRLKQSFPSSSIYNPRQSTNGLKGNIDNMALIIGYGDGGVSS*"
-     CDS             74528..75052
                      /product="hypothetical protein"
+     CDS             74528..75052
+                     /locus_tag="PROKKA_00115"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00115"
                      /translation="MNNFIPQPQGLLRFLNALDTDLTSSHMNLLDEEVSFVSKFYTPQ
                      LQLSELAKKVLTNIKTDDIPVLEREFNDNTIIHKANDTLLKVQAPRMYMILQSIVLEA
                      YAIVNCFVENPSSLKYLTEEDVSITRENLNYVADYLGNYDDYNSVVLDLRDLDLCFSA
                      IELQLPLIKKEANV*"
-                     /protein_id="PROKKA_00115"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00115"
+                     /product="hypothetical protein"
      CDS             75052..75756
                      /locus_tag="PROKKA_00116"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /protein_id="PROKKA_00116"
-                     /product="hypothetical protein"
+                     /protein_id="NC_025416_PROKKA_00116"
                      /translation="MRFKKHVVQHEETMQAIAQRYYGDVSYWIDLVEHNNLKYPYLVE
                      TDEEKMKDPERLASTGDTLIIPIESDLTDVSAKEINSRDKDVLVELALGRDLNITADE
                      KYFNEHGTSDNILAFSTNGNGDLDTVKGIDNMKQQLQARLLTPRGSLMLHPNYGSDLH
                      NLFGLNIPEQATLIEMEVLRTLTSDNRVKSANLIDWKIQGNVYSGQFSVEIKSVEESI
                      NFVLGQDEEGIFALFE*"
+                     /product="hypothetical protein"
      CDS             75771..76817
-                     /protein_id="PROKKA_00117"
-                     /inference="ab initio prediction:Prodigal:2.6"
                      /locus_tag="PROKKA_00117"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00117"
                      /translation="MKTRKLTNILSKLIDKTMAGTSKITDFTPGSASRSLLEAVSLEI
                      EQFYILTKENIDWGIQEGIIEAFDFQKRQSKRAYGDVTIQFYQPLDMRMYIPAGTTFT
                      STRQEYPQQFETLVDYYAEPDSTEIVVEVYCKETGVAGNVPEGTINTIASGSSLIRSV
@@ -1099,6 +1099,9 @@ FEATURES             Location/Qualifiers
                      QGIIRAGEIKVELK*"
                      /product="hypothetical protein"
      CDS             76943..79903
+                     /locus_tag="PROKKA_00118"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00118"
                      /translation="MNQVEKDAIESKLQSSLKTSTSEYLDKFGDWFGVYRKTDENDDV
                      YRARIIKYLLLKRGTNNAIIDAIKDYLGRDDIDVSVYEPFTNIFYTNKSHLNGEDHLM
                      GYYYRFAVINVSIGDYFPIEIIDVINEFKPAGVTLYVTYDGASTIRGGAVIKWLDGLP
@@ -1118,24 +1121,20 @@ FEATURES             Location/Qualifiers
                      LERLAVGNSNGSFNEVFVYPENIKDGIVDITYTSRDDNYAEGKQRLNNDYRVYAQPYD
                      SGVVTIYSLELIKV*"
                      /product="hypothetical protein"
-                     /locus_tag="PROKKA_00118"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /protein_id="PROKKA_00118"
      CDS             80014..80535
-                     /product="Virion protein 3"
+                     /locus_tag="PROKKA_00119"
+                     /inference="ab initio prediction:Prodigal:2.6,similar to
+                     AA sequence:UniProtKB:P85227"
+                     /protein_id="NC_025416_PROKKA_00119"
                      /translation="MAIATYNSHVELAKYLVSKADSVYLTIGKSTPWSNETNPPQPDE
                      NATVLQEVIGYKKATKVTLVRPSKSPEDDNKNLISYGNKSWVEVTPENAKAEGAKWVY
                      LESSIVGDELPLGTYRQVGFVMDLVAKSGISKFNLVPSEVESTGTLLFFDNKQFQNRS
                      EQTTAKERFIVEV*"
-                     /locus_tag="PROKKA_00119"
-                     /inference="ab initio prediction:Prodigal:2.6,similar to
-                     AA sequence:UniProtKB:P85227"
-                     /protein_id="PROKKA_00119"
+                     /product="Virion protein 3"
      CDS             80557..84015
-                     /protein_id="PROKKA_00120"
-                     /inference="ab initio prediction:Prodigal:2.6"
                      /locus_tag="PROKKA_00120"
-                     /product="hypothetical protein"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00120"
                      /translation="MAINFKGSPYLDRFDPSKDRTKVLFNPDRPLQQAELNEMQSIDQ
                      YYLKNLGDAIFKDGDKQSGLGFTLSEDNVLTVNPGYVYINGKIRYYDNDDSVKITGVG
                      KETIGIKLTERIVTPDEDASLLDQTSGVPSYFSKGADRLEEKMSLTVNDPTSATIYTF
@@ -1157,18 +1156,18 @@ FEATURES             Location/Qualifiers
                      LMSSSDLTFTTFLTELTGSYVGRAIDMTEAPYNTVRFSYEAFLPKGTKVVPKYSDDDG
                      KTWKTFTKSPTTTRANNEFTRYVIDEKVKSSGTNTKLQVRLDLSTENSFLRPRVRRLM
                      VTTRDE*"
+                     /product="hypothetical protein"
      CDS             84064..84222
+                     /locus_tag="PROKKA_00121"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00121"
                      /translation="MPREVRDPYSQAKLFIPTVEEKSIKELERTYKEKINEVDRLLTE
                      LKKERGEK*"
                      /product="hypothetical protein"
-                     /protein_id="PROKKA_00121"
-                     /locus_tag="PROKKA_00121"
-                     /inference="ab initio prediction:Prodigal:2.6"
      CDS             84223..86154
                      /locus_tag="PROKKA_00122"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /protein_id="PROKKA_00122"
-                     /product="hypothetical protein"
+                     /protein_id="NC_025416_PROKKA_00122"
                      /translation="MAFNYTPLTEKQKLKDMYPKVNDIGNFLKTEVNLSDVKQISQPD
                      FNNILSSIPDSGNYYVTNSRNAPADEATSGFVRLDKRNVNYYKIYYSPYSSNKMYIKT
                      YANGTIYDWISFKLDEGNLYNEGNTLNVKELTESTTQYATLVNPPQEDLDTGWVTYKE
@@ -1181,15 +1180,19 @@ FEATURES             Location/Qualifiers
                      WKPLKQQRTSTILWEGTLDYGSKDTIPLNDSWTNYDLLEVVYLTQSAGHYKTMFLDLR
                      IPTTPYLYIRDFNLSNNSTGSGVDFFEGYLTFPTNTSATPTMVKKVTLNGSTNTTSVT
                      DFNAQGIITIYRIAGINTL*"
+                     /product="hypothetical protein"
      CDS             86168..86542
-                     /protein_id="PROKKA_00123"
                      /locus_tag="PROKKA_00123"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /product="hypothetical protein"
+                     /protein_id="NC_025416_PROKKA_00123"
                      /translation="MARQFDIGRDEIVLHLRDGKYITGFTTAGAYDEDFGQVKVNREI
                      LPAYFFENFALDRYLYYKKPEEVIENKNYVPPQINNSDEESQQNTVPKEQYDSLKEEL
                      ELMRQQQEAMMKMLQQLLGQKG*"
+                     /product="hypothetical protein"
      CDS             86549..87925
+                     /locus_tag="PROKKA_00124"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00124"
                      /translation="MALNFTTITENNVIRDLTTQVNNIGEELTKERNIFDITDDLVYN
                      FNKSQKIKLTDDKGLTKSYGSITALRDIKEPGYYYIGARTLATLLDKPDIESIDVVLH
                      VVPLDTSSKVVQHLYTLSTNNNQIKMLYRFVSGNSSSEWQFIQGLPSNKNAVISGTNI
@@ -1200,14 +1203,13 @@ FEATURES             Location/Qualifiers
                      FYLDGSGTYVCSGTFVSGDRTDTKPPITEFYRVGVSFKGSTWTLVDSAVQNSKTQYVT
                      RIIGINMP*"
                      /product="hypothetical protein"
-                     /protein_id="PROKKA_00124"
-                     /locus_tag="PROKKA_00124"
-                     /inference="ab initio prediction:Prodigal:2.6"
      CDS             88015..89763
+                     /locus_tag="PROKKA_00125"
+                     /protein_id="NC_025416_PROKKA_00125"
+                     /gene="uvsW"
                      /inference="ab initio prediction:Prodigal:2.6,similar to
                      AA sequence:UniProtKB:P20703"
-                     /EC_number="3.6.4.12"
-                     /protein_id="PROKKA_00125"
+                     /product="ATP-dependent DNA helicase uvsW"
                      /translation="MRLRIKNLYTYVEFEEDDKYLKDIFLKRVHTTIGARQEGFQYSP
                      AYKRGSWDGYVDFYVYEEDKFPTGLLFKIELLLGELQSRYNFQFETIDERDESFLSEE
                      DIDDEITLLDNNVGQITLRDYQYEAVYNSLTFYNGIAHLATNGGKTEVASGIIDQLLP
@@ -1219,10 +1221,11 @@ FEATURES             Location/Qualifiers
                      IVNFIEHGDTISEMLNDLGVEHYFLHGEIDSETRREKLNDMRSGKLKVMIATSLIDEG
                      VDISGINALILGAGGKSLRQTLQRIGRALRKKKDDNTTQIFDFNDMTNRFLYTHANER
                      RKIYEEEDFEIKDLGK*"
-                     /product="ATP-dependent DNA helicase uvsW"
-                     /gene="uvsW"
-                     /locus_tag="PROKKA_00125"
+                     /EC_number="3.6.4.12"
      CDS             89775..91388
+                     /locus_tag="PROKKA_00126"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00126"
                      /translation="MATKTQRKLYQYLEENAIENKFHISTKKELADSLGVSISALSNN
                      LKKLEEENKVVTVSKRGKNGGVIITLVREYVTEELKEFNHSTDNIITSDLQYAKALRE
                      KHFPSYRYERKEQRRRTKIEMAQYNAIKDEKRRIIADMNFHSEGLPYPSKDIFNMSYD
@@ -1234,11 +1237,11 @@ FEATURES             Location/Qualifiers
                      NKDSLSGIDIQNLEQNGNEYLYMRQHTSTYYILRMFGDYLGYEVNLREVKYIVEKYNL
                      IDKIPLTKEGMLDYNKLIHLVEEEVNNYE*"
                      /product="hypothetical protein"
-                     /locus_tag="PROKKA_00126"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /protein_id="PROKKA_00126"
      CDS             91381..92823
-                     /product="ATP-dependent helicase 41"
+                     /locus_tag="PROKKA_00127"
+                     /inference="ab initio prediction:Prodigal:2.6,similar to
+                     AA sequence:UniProtKB:P04530"
+                     /protein_id="NC_025416_PROKKA_00127"
                      /translation="MSKKIKELILHKSMKDIHFAREVLDNLPKNLFSAESEDMGYLFT
                      AIKRTAHISDKMSNEALAIKVEQLMGSNKEDEEKVTKTLTYLEDLYKVDVNEKDESVN
                      YEIEKYIKTEMSKEVLVKFIAENKQEDSDNLHELVDKLKQIEVSDISGGNGEFIDFFE
@@ -1248,13 +1251,12 @@ FEATURES             Location/Qualifiers
                      SDAGGKLFEDIRRLSQQYGFVCWTLAQTNRGAYGSDVITSEHVEGSRKIVNAVEVSLA
                      VNQKDEEFKSGFLRLYLDKIRNSSNTGERFVNLKVEPTKMIVRDETPEEKQEHIQLLS
                      DNGKEDTSKFQNKDNKIEAINNTFGGLPGV*"
+                     /product="ATP-dependent helicase 41"
                      /EC_number="3.6.4.-"
-                     /protein_id="PROKKA_00127"
-                     /inference="ab initio prediction:Prodigal:2.6,similar to
-                     AA sequence:UniProtKB:P04530"
-                     /locus_tag="PROKKA_00127"
      CDS             92902..93927
-                     /product="hypothetical protein"
+                     /locus_tag="PROKKA_00128"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00128"
                      /translation="MKFVFFTDSHFHLFTNYAKPDDEFVNDRFKEQIEALQKVFDIAR
                      EEKANVIFGGDLFHKRNSVDTRVYNKVFSTFAKNKDVPVLLLRGNHDATTNSLYTDSS
                      IDTFEYLSNVSVIKSLNTILKDNVNIVFTAYGDETEEIKNYINSNYDKDMVNILVGHL
@@ -1262,21 +1264,19 @@ FEATURES             Location/Qualifiers
                      SDEQEANGVHIIDTEKMTTEFIPIHTRRFITIQGEDIPENFEQLIEEDNFIRVIGTSN
                      HAKVLEMDDSMKDKNVEVQIKKEYTVEKRIDSDVSDDPLTIASTYAKQYSPESEQEIL
                      ECLKEVL*"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00128"
-                     /protein_id="PROKKA_00128"
-     CDS             93906..94304
                      /product="hypothetical protein"
+     CDS             93906..94304
+                     /locus_tag="PROKKA_00129"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00129"
                      /translation="MFKGGFIVRKYKEYLNKTDEENLAEDWERIKEDLWKVFKDMKPK
                      INTLDISNVVSKDLDKSKPILQFQDSDRVIENICNVEGLEDGLSKMKKIFDDSNFEKH
                      YYNRIVEHDEYYWIDYGSHHCFFRVTKGDK*"
-                     /protein_id="PROKKA_00129"
-                     /locus_tag="PROKKA_00129"
-                     /inference="ab initio prediction:Prodigal:2.6"
+                     /product="hypothetical protein"
      CDS             94304..96223
                      /locus_tag="PROKKA_00130"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /protein_id="PROKKA_00130"
+                     /protein_id="NC_025416_PROKKA_00130"
                      /translation="MVVFKQVEVNNFLAIKEATLELDNRGLILIEGENKSNESFHSNG
                      SGKSTLISAITYALYGKTEKGLKADDVVNNIEKKNTSVKLKFDIGEDNYLIERYRKDK
                      ENKNKVKLFVNDKEITGSTNDVTDKQIQDLFGIEFNTYVNAIMYGQGDIPMFSQATDK
@@ -1291,15 +1291,18 @@ FEATURES             Location/Qualifiers
                      IKIIKENGVSKLEEK*"
                      /product="hypothetical protein"
      CDS             96223..96819
-                     /protein_id="PROKKA_00131"
                      /locus_tag="PROKKA_00131"
                      /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00131"
                      /translation="MKLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYE
                      YKLSRNGEYLELKRLRSTLPSSYGLEDNDQDIIRDNNHRCKIGYWYNPAVRKDNLKII
                      EKAKQYGLPVITEEYDANIVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKS
                      EESQLNEALKESDFSVDLTYSDLGQIYNMLLLMKKISK*"
                      /product="hypothetical protein"
      CDS             96834..97901
+                     /locus_tag="PROKKA_00132"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00132"
                      /translation="MRFEDFLTQELGEPKENTIGELRYCCPFCGEKSYKFYVKQALDS
                      SNGQYHCKKCDESGNPITFMKTYYNITGKQAFDLLESKNIDIERAPLLTTNNKDLTES
                      EKLILMLRGVHQDKGNTNLKPPRLPEGYKLLKDNLNNKEIIPFLKYLKGRGITLEQII
@@ -1308,50 +1311,44 @@ FEATURES             Location/Qualifiers
                      YVSIDTSIYIMLDTDALDNNIDLAYKLKTHFNKVYLVPHGDEDANDMGTRKAFELLKQ
                      NRVLVTPESIQSYKIQQKLKL*"
                      /product="hypothetical protein"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00132"
-                     /protein_id="PROKKA_00132"
      CDS             97967..98305
-                     /product="hypothetical protein"
+                     /locus_tag="PROKKA_00133"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00133"
                      /translation="MSNNKKDILEFVDEYITALRVGNEQRQHQLEEIGKEETATLTDV
                      AKAITNLMLGVNEQMTDLEYNNELNLNILIDALYKAELINEDVLGYIQESIDKSQEEP
                      KNEEEKGEQE*"
-                     /protein_id="PROKKA_00133"
-                     /locus_tag="PROKKA_00133"
-                     /inference="ab initio prediction:Prodigal:2.6"
-     CDS             98305..98757
                      /product="hypothetical protein"
+     CDS             98305..98757
+                     /locus_tag="PROKKA_00134"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00134"
                      /translation="MEKNISTHTKGISQADMEKWIEAVVQGTVDGKQVEEKTAKQLDR
                      IGSRSVSLEEATRIAKVINAVTVQEMSGDFNDAFNAIDLMMIVMEDELGVTQEQVGKA
                      KDKLNEKREAYLKEKQEELRQKQQEEAQKETESDSNEKVIQLKKNDEQ*"
-                     /locus_tag="PROKKA_00134"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /protein_id="PROKKA_00134"
+                     /product="hypothetical protein"
      CDS             98744..99352
+                     /locus_tag="PROKKA_00135"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00135"
                      /translation="MTNSKKKGDTFERKIAKELTAWWGYQFNRSPQSGGASWGKDNNA
                      VGDIVVPQEANFPLVVECKHREEWTIDNVLLNNREPHTWWEQVINDSSKVNKTPCLIF
                      TRNRAQSYVALPYDEKVYEDLRNNEYPVMRTDFIIDNIRKDKFFYDVLITTMNGLTSF
                      TPSYIISCYDKKDIKPYKKVESNLSEVSKHEDELINDLLNDI*"
                      /product="hypothetical protein"
-                     /protein_id="PROKKA_00135"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00135"
      CDS             99342..99761
-                     /product="hypothetical protein"
+                     /locus_tag="PROKKA_00136"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00136"
                      /translation="MIYKEGKIGMTSKERPLIVYFSGTGQTERLVNKININNSFETFR
                      VKSGKEKVNKPFILITPTYMKGAIPKQIERFLEINGSPKEVIGTGNKQWGSNFCGASK
                      KISEMFKIPLIAKVEQSGHFNEIQPILEHFSNKYKVA*"
-                     /protein_id="PROKKA_00136"
-                     /locus_tag="PROKKA_00136"
-                     /inference="ab initio prediction:Prodigal:2.6"
+                     /product="hypothetical protein"
      CDS             99776..101890
+                     /locus_tag="PROKKA_00137"
                      /inference="ab initio prediction:Prodigal:2.6,similar to
                      AA sequence:UniProtKB:P12848"
-                     /locus_tag="PROKKA_00137"
-                     /protein_id="PROKKA_00137"
-                     /EC_number="1.17.4.1"
-                     /product="Ribonucleoside-diphosphate reductase large
-                     subunit"
+                     /protein_id="NC_025416_PROKKA_00137"
                      /translation="MATYGKWIELNNEITQLDDNGKNKLYKDQEALDEYLKYIEDNTR
                      KFNNEVERIRVLTKEGTYDKIFNKVPDTIIDEMTKLAYSFNFKFPSFMAGQKFYESYA
                      SKQYDENKKPIFVEDYEQHNVRVALYLFQDDYVKARELLVQLMEQTFQPSTPTYNNSG
@@ -1365,13 +1362,17 @@ FEATURES             Location/Qualifiers
                      VKVYGLYNGYRKAEAPTQSISYVQNATSSIMPVPSAIENRQYGDMETYYPMPYLSPIT
                      QFFYEGETAYKIDNKRIINTSAVVQKHTDQAVSTILYVESEIPTNKLVSLYYYAWEQG
                      LKSLYYTRSRKLSVIECETCSV*"
+                     /product="Ribonucleoside-diphosphate reductase large
+                     subunit"
+                     /EC_number="1.17.4.1"
      CDS             101904..102953
                      /locus_tag="PROKKA_00138"
-                     /EC_number="1.17.4.1"
-                     /protein_id="PROKKA_00138"
+                     /protein_id="NC_025416_PROKKA_00138"
+                     /gene="bnrdF"
                      /inference="ab initio prediction:Prodigal:2.6,similar to
                      AA sequence:UniProtKB:O64174"
-                     /gene="bnrdF"
+                     /product="Ribonucleoside-diphosphate reductase subunit
+                     beta"
                      /translation="MDITQKIKQHNKNAVLKATNWNIEDDGMSDIYWEQGISQFWTPE
                      EFDVSRDLSSWNSLTESEKNTYKKVLAGLTGLDTKQGGEGMNLVSYHEPRPKYQAVFA
                      FMGGMEEIHAKSYSHIFTTLLSNKETSYLLDTWVEENDFLKVKAQFIGYYYDQLLKPN
@@ -1379,43 +1380,44 @@ FEATURES             Location/Qualifiers
                      GLTAQYDYNLLTEEEKKLADRETYELLNILYTNEVAYTHSLYDPLELSEDVINYVQYN
                      FNRALQNLGREDYFNPEPYNPIVENQTNVDRLRNVDFFSGKADYEKSTNIKDIKDEDF
                      SFLDSKEYSTAKEFL*"
-                     /product="Ribonucleoside-diphosphate reductase subunit
-                     beta"
+                     /EC_number="1.17.4.1"
      CDS             102971..103300
+                     /locus_tag="PROKKA_00139"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00139"
                      /translation="MDRKEAMDLLSKTEILFKKHDEFSCVSDINDPMKLFSNSKDAKA
                      DDTSKSFQLEFMHDMTMYTLSYGSGQLKLIDLSEGYEAQKATVVNSFPEIIKTLEKDD
                      SEDGKNE*"
                      /product="hypothetical protein"
-                     /protein_id="PROKKA_00139"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00139"
      CDS             103284..103604
+                     /locus_tag="PROKKA_00140"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00140"
                      /translation="MEKMNSLVDLNTAIRQKKDVIVMITQDNCGKCEILKSVIPMFQD
                      SGDIKKPILTLNLDAEDVDREKAVKLFDIMSTPVLIGYKDGQLVKKYEDQVTPMQLQE
                      LESL*"
                      /product="hypothetical protein"
-                     /protein_id="PROKKA_00140"
-                     /locus_tag="PROKKA_00140"
-                     /inference="ab initio prediction:Prodigal:2.6"
      CDS             103811..104407
+                     /locus_tag="PROKKA_00141"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00141"
                      /translation="MDELISKSRRYIMRDENHYMLFNEKYNNDRLIEKVCKHGGKVTY
                      YTDSVLPYYVLKDLSSHPDSEVVYRMRNGFTAKEVDNIALSFMGTKVIIDISVVFPYV
                      NPYDIIRSLHDIKTNVDEVHLSFPRILEVDEKQEKFYFFDGEAYDLKPEYKVDFADKI
                      RVSLSVWKMYIYILTSSRDFEDVDNVITKLKQQRKIKI*"
                      /product="hypothetical protein"
-                     /protein_id="PROKKA_00141"
-                     /locus_tag="PROKKA_00141"
-                     /inference="ab initio prediction:Prodigal:2.6"
      CDS             104417..104722
-                     /product="hypothetical protein"
+                     /locus_tag="PROKKA_00142"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00142"
                      /translation="MSTANRRDIARKISENTGYYIQDVEEILSAETDAISDLLEEGYT
                      KVKNHKFMQIEVIERKGKKAWDGLNKEYFHLPNRKAIKFKPLKELEEVIDRINEEEK*
                      "
-                     /protein_id="PROKKA_00142"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00142"
-     CDS             104798..107029
                      /product="hypothetical protein"
+     CDS             104798..107029
+                     /locus_tag="PROKKA_00143"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00143"
                      /translation="MKVLILFDHIREEHFSVSKDGSVKSNVLNTPNGKTLKKLLEKCS
                      NLKRDKTNRDYDIDFLYNAVPTPIRNDYGKIIKYQDVKQAEVKPYYERMNNIIIDNSY
                      DMIIPVGKLGVKYLLNVTAIGKVRGVPSKVTIENETSSHDVWVLPTYSIEYTNVNKNS
@@ -1430,22 +1432,23 @@ FEATURES             Location/Qualifiers
                      PSSGDHKGRVIYDILGIQLPYDKEYVKEKPFNANVKEADLTWQDYKTDKKAIGYALDN
                      LELKDDVKELLELLKYHASMQTKRNSFTKKLPNMINKQKRTLHGSFSETGTETSRLSS
                      SNP*"
-                     /protein_id="PROKKA_00143"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00143"
+                     /product="hypothetical protein"
      CDS             107195..108004
+                     /locus_tag="PROKKA_00144"
                      /inference="ab initio prediction:Prodigal:2.6,similar to
                      AA sequence:UniProtKB:P34081"
-                     /locus_tag="PROKKA_00144"
-                     /protein_id="PROKKA_00144"
-                     /EC_number="3.1.-.-"
-                     /product="DNA endonuclease I-HmuI"
+                     /protein_id="NC_025416_PROKKA_00144"
                      /translation="MGKVQRLGVETIQSIHTHESKGIISVVGNNKESYMKEIWKKVVG
                      FENYEVSNKGKVRNIKTNYILKPWIINSGYEQVSIGIANVLVHRLVAMTFIPTDSYSI
                      VNHIDNNKLNNCVENLEWVSYKGNSAHANKQGRLNTYSAREKLSSVSKKAIYQKDMEG
                      NIIKLWDSPSEAEKESNGYFKSTKISSVAHGKRKHHRSYTWEYVYKDSKRSLNKSINM
                      YDLNNNLLYEDLTMNKIMGILEMNNHKTLRDKLRNTDDFVEYRGYKFKNNN*"
+                     /product="DNA endonuclease I-HmuI"
+                     /EC_number="3.1.-.-"
      CDS             108238..109098
+                     /locus_tag="PROKKA_00145"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00145"
                      /translation="MRIIGLFTKDPDMLQSFLNGEDIHKATASIVYNKPVEEVTKEER
                      QATKAVNFGLAFGESPFSFAGKNNMEVSEAEEIFEKYFQTKPSVKTSIDNVHEFVQQY
                      GYVDTMHGHRRFIRSAQSTDKKIKNEGLRQSFNTIIQGSGSFLTNMSLTYLDDFIQSR
@@ -1453,27 +1456,26 @@ FEATURES             Location/Qualifiers
                      MEIGLNYNDMVEYDEEEIDTFNSYQGYIKYMMNLQTLEDYKESGKLTDEQFEKATNVV
                      KSEKHIYQEI*"
                      /product="hypothetical protein"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00145"
-                     /protein_id="PROKKA_00145"
      CDS             109200..109409
+                     /locus_tag="PROKKA_00146"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00146"
                      /translation="MDGWVITSMYQDELGGMNIVVTFYNREENKHGSTVLPTESSTGE
                      VTEELASLEEEYPLALPLSSISVNI*"
                      /product="hypothetical protein"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00146"
-                     /protein_id="PROKKA_00146"
      CDS             109426..109908
-                     /inference="ab initio prediction:Prodigal:2.6"
                      /locus_tag="PROKKA_00147"
-                     /protein_id="PROKKA_00147"
-                     /product="hypothetical protein"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00147"
                      /translation="MEIHIDSLDFTNFTIKDRNGNSQEFDITDELRITEYTIQEDFMQ
                      QSAKYAFWASILEKVRAYSEMEQRNLETIGSKLNLTIRQEYEQQGKKPTKDMIESSVY
                      IHDSYQQQLKVVEAWNYKVKQLQYVVKAFETRRDMMIQLGAELRQTNKNGGITNPFSH
                      *"
-     CDS             109995..111266
                      /product="hypothetical protein"
+     CDS             109995..111266
+                     /locus_tag="PROKKA_00148"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00148"
                      /translation="MDFNQFINNEASKLESNNSSFNNNVESYKPKNPVLRLGNIKDAN
                      GNKVVKENAFVRVLPPAQGTNVFFKEFRTTGINYSKKDGSQGFTGLTLPAEEGSSVLD
                      PYIQDWITNGVQFSRFPNKPGVRYYIHVIEYFNNNGQIQPKTDAQGNVMIQPMELSNT
@@ -1482,13 +1484,11 @@ FEATURES             Location/Qualifiers
                      PKQAPTQQDVDSQMPSNMGGQPNQPQQGQVGQYTQQGQSNGQGQQLQGTQQPINNTQF
                      GQGTPSGQQPSNTGSVDWDNLAQQQSQPDSNPFNDFDVSSVDDSQVPFETQPQNTQQA
                      PEPQQTTQEPPKQKQTQSIDDVLGGLDLDNL*"
-                     /locus_tag="PROKKA_00148"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /protein_id="PROKKA_00148"
+                     /product="hypothetical protein"
      CDS             111326..112582
-                     /protein_id="PROKKA_00149"
-                     /inference="ab initio prediction:Prodigal:2.6"
                      /locus_tag="PROKKA_00149"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00149"
                      /translation="MARAKKGKEVDLTDLNTIDLGKELGLTLLSDTNRADIKNVIPTM
                      VPQYDYILGGGIPLGRLTEVYGLTGSGKSTFAVHLSRIATQLGVITIWIDIEGTADNN
                      RMEQLGVDVSKLFSIQSGEGRLKNTVELSVEQVGKELEYWIDTFNEKIPGVPIVFIWD
@@ -1499,71 +1499,71 @@ FEATURES             Location/Qualifiers
                      KEWATDNKQEEQEEELKGESQEKDSE*"
                      /product="hypothetical protein"
      CDS             112586..112939
-                     /protein_id="PROKKA_00150"
                      /locus_tag="PROKKA_00150"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /product="hypothetical protein"
+                     /protein_id="NC_025416_PROKKA_00150"
                      /translation="MDNLIDKNMNQVKESLGNANSSDVLPLPYKDIAKKFEEVKEKGE
                      SIIIEEGGFPYTDSTVMYIEHVTDRWAGGYSLIRHEGEEVKVPKTIHFSDIYVKDKSH
                      KVRIIFEGANPYEES*"
-     CDS             112926..113588
                      /product="hypothetical protein"
+     CDS             112926..113588
+                     /locus_tag="PROKKA_00151"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00151"
                      /translation="MKKANNGNRYVIDIDGIPVDFERDLDSLLNRYKNLRWSLYHRYA
                      GILSNDFERQELREYIDEQFIKLVKEYNIRSKVDFPGYIKAKLTLRVQNSYVKKNEKY
                      KRTEIIGKKDYTVESLTEDLNEDFEDNQIMSYVFDDIEFTEVQSELLKELLINPERED
                      DAFIVSQVAEKFDMKRKEVASELTELRDYVRFKINAYHEYYAKKELNNHRVNTENHIW
                      EN*"
-                     /locus_tag="PROKKA_00151"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /protein_id="PROKKA_00151"
+                     /product="hypothetical protein"
      CDS             113715..114347
-                     /protein_id="PROKKA_00152"
+                     /locus_tag="PROKKA_00152"
                      /inference="ab initio prediction:Prodigal:2.6,similar to
                      AA sequence:UniProtKB:P85228"
-                     /locus_tag="PROKKA_00152"
+                     /protein_id="NC_025416_PROKKA_00152"
                      /translation="MAKKNVNDVLQQESVTVADKYLQVKVNRDGYTRTHEGQYAYKVV
                      SEGEELFLYPVQTDGKGTLNVMKKSPIAYTDGDNIHFVVNTVVDPYNHSFIRTEDIKG
                      LDKGKQLIQAFLAFVEDRFKFGVYNVFVANNKEDVLSIVDPTDNDADEVKDSLEHAHE
                      DVIADFPASPARKDVKGVDSGEGQGDTSEPSAPKNVQVTPKEDGADVSAE*"
                      /product="Virion protein 4"
      CDS             114362..114883
+                     /locus_tag="PROKKA_00153"
+                     /inference="ab initio prediction:Prodigal:2.6,similar to
+                     AA sequence:UniProtKB:P85991"
+                     /protein_id="NC_025416_PROKKA_00153"
                      /translation="MVNLAKLNLYKGNELLNSVEKTEGKSTITIENLDANTDYPKGTF
                      KVSFSNDSGESEKVDVPQFKTKEIKVISVTLDVDSLDLTVGDTHQLSTTITPSEASNK
                      NVSFESDKSGVASVTSEGLIEAVSAGTANITVTTEDGSHTDIVAVTVKEPIPEAPTDV
                      TVEPGENSADITA*"
                      /product="Ig-like virion protein"
-                     /protein_id="PROKKA_00153"
-                     /inference="ab initio prediction:Prodigal:2.6,similar to
-                     AA sequence:UniProtKB:P85991"
-                     /locus_tag="PROKKA_00153"
      CDS             114898..115107
-                     /product="hypothetical protein"
+                     /locus_tag="PROKKA_00154"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00154"
                      /translation="MEKTLKVYSNGEVVGSQVANNDGATTVSITGLEAGKTYAKGDFK
                      VAFANDSGESEKVDVPEFTTKTPAE*"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00154"
-                     /protein_id="PROKKA_00154"
-     CDS             115220..115480
                      /product="hypothetical protein"
-                     /translation="MDIPTILFRNPYDYTKVKKLMENKEQYIVVKFDSVSVHNLNVQG
-                     MMNVIQDYLHIYGYRVKEYGQENASKDDERDVKGYLYERVGE*"
+     CDS             115220..115480
                      /locus_tag="PROKKA_00155"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /protein_id="PROKKA_00155"
+                     /protein_id="NC_025416_PROKKA_00155"
+                     /translation="MDIPTILFRNPYDYTKVKKLMENKEQYIVVKFDSVSVHNLNVQG
+                     MMNVIQDYLHIYGYRVKEYGQENASKDDERDVKGYLYERVGE*"
+                     /product="hypothetical protein"
      CDS             115484..116239
                      /locus_tag="PROKKA_00156"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /protein_id="PROKKA_00156"
-                     /product="hypothetical protein"
+                     /protein_id="NC_025416_PROKKA_00156"
                      /translation="MGVIINSNHIQSDTLYEYDSFFDIEKVDTFEEGLLSIQDEPAVL
                      AGFIYDDITFNKVINSNSDIDDYIKNNDIYYVSDIGLLPDTFITVDSDRKYYSLLQQI
                      TELSKDPFPKWVEDDAKGLTKYYNFQDFEDVFDLNSFYKKEVDMVREKCYNNGNVYLL
                      YEVLPDYKLPLAYSLLSNKEHGIVIIGSQTRSNNDILTFYVKGMDAKAIASMFNVEHD
                      YDSNIFHTFVNSHINILGNQITKFIREKGSSYE*"
+                     /product="hypothetical protein"
      CDS             116232..117482
-                     /inference="ab initio prediction:Prodigal:2.6"
                      /locus_tag="PROKKA_00157"
-                     /protein_id="PROKKA_00157"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00157"
                      /translation="MSNYKTIEEVQAVIIGVLFKDEGKIVTSKFNKITKEFGLDRIGK
                      DDLKEIVEDIRQDAYLNELKNKAIKGKVTLGDLKDVADNQVFEGNNYHEEVSTYVVAK
                      EKELSHLREQRKHNRHTAYPQIMFDELKEHMVKELQGETLVEHHGSKVNINDTELIVL
@@ -1574,230 +1574,229 @@ FEATURES             Location/Qualifiers
                      KPSQQLLFVNKENKDIDIKTVFLD*"
                      /product="hypothetical protein"
      CDS             117496..117864
-                     /protein_id="PROKKA_00158"
                      /locus_tag="PROKKA_00158"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /product="hypothetical protein"
+                     /protein_id="NC_025416_PROKKA_00158"
                      /translation="MDTIFIIGVAFITFATFNIVFRLFDLWTTEKKMVSQGQPPLSNF
                      EYYHVIVPYLVGVIVIILSIIFRDSLYSAQSGFGVIITSFIYMLVYVIIGLVGSFILT
                      IFQARKARQYQTQEDNNEVQ*"
+                     /product="hypothetical protein"
      CDS             117851..118162
+                     /locus_tag="PROKKA_00159"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00159"
                      /translation="MKFNDIYEQLIKNDTVQNIHESQDDKGNIYTIQFDKGNDKYLFN
                      VINDGFLKEMTNGMVDHPEGQPYSVSLINKETPSMSVKQYLTDVEDIVPTIRKMEKDF
                      L*"
                      /product="hypothetical protein"
-                     /protein_id="PROKKA_00159"
-                     /locus_tag="PROKKA_00159"
-                     /inference="ab initio prediction:Prodigal:2.6"
      CDS             118226..118762
-                     /inference="ab initio prediction:Prodigal:2.6"
                      /locus_tag="PROKKA_00160"
-                     /protein_id="PROKKA_00160"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00160"
                      /translation="MDFNFSAFDNSSLAMRISEGVYYFNDTPYYFIEHVEEEMSEYVI
                      VYDIHDREEKENPQKKYRVEPYQRTIPGGTPLSNLIKSMMPQRKYPKKVIEDPIFVAN
                      VIPLGTDTVTGKTGKGFFERDKDRTIYSQKEPTKVVHGQYTGVFIGLTSVKWNRTYTP
                      LESVVEYCKRVKGDRLNV*"
                      /product="hypothetical protein"
      CDS             118755..119522
-                     /product="hypothetical protein"
+                     /locus_tag="PROKKA_00161"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00161"
                      /translation="MSNDVVKFYEKDIKDLIRTKKHMFKDDEITSDINDIRIFNEKVI
                      CQGKCRTDCLVLDRNGTVMGIEIKTERDSTQRLNNQLKYYSLVCKYVYVMCHDKHVPK
                      VEQILKRYKHNHVGIMSYINFKGKPVVGKYKDATPSPHRSPYHTMNILWKTNLMTILR
                      LIRDPHTYRTGYSYNASGRYSGGEGNFSQTTQSKRMKKPAIINQIIHYVGVDNTYKLF
                      TRGVIYGYNNRWEVIEEDFFNTMKNGVRVINEQRQTK*"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00161"
-                     /protein_id="PROKKA_00161"
-     CDS             119500..119946
-                     /protein_id="PROKKA_00162"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00162"
                      /product="hypothetical protein"
+     CDS             119500..119946
+                     /locus_tag="PROKKA_00162"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00162"
                      /translation="MSKDKPNRRKEIQHQPVNFAPTNTLTGANNSFFAKKPSEPKDAT
                      SVIEYRILFIKRFDNVTSTDVKLQKKYALNLISEALDVKETYLSLKQKGKKTESILHT
                      DRVYYVHRGKKLIGKCSIREQRTFRGKHLIFIFKTRHRVKAERKDK*"
-     CDS             119946..120809
                      /product="hypothetical protein"
+     CDS             119946..120809
+                     /locus_tag="PROKKA_00163"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00163"
                      /translation="MLKGFSEHVDKPTTIKTLYKTLTSGKVELLGVSYDSDYFPSGVT
                      VQSYIEDISNEDEGLQFVNKVNVVESMKQAVVGMNNQLGSSGLGYVRTEQLKKELEET
                      GLMTDLLARGTNLTSTKKVDIVSTFIEPEVTYQDITIAKDIKLRLYKLEEESPLNGYT
                      HIVYLLTTEKLYDGQTLFGMLSKKDKLSKGDTDKLLAFFRNNSLISKSVFCVKLLSKD
                      YYFNLYNTHETGIFFLEDTDIITIACGQSYVKVNTKDIKSSYVKIEDKTHKLTELVIN
                      LKGDDTLTILF*"
-                     /protein_id="PROKKA_00163"
-                     /locus_tag="PROKKA_00163"
-                     /inference="ab initio prediction:Prodigal:2.6"
-     CDS             121181..121912
                      /product="hypothetical protein"
+     CDS             121181..121912
+                     /locus_tag="PROKKA_00164"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00164"
                      /translation="MARKKNLRNKNSDIKVVPDKEKESILSKLYHNKLLRSKVDNALD
                      EDMSYDDIIELCKEYDLELSKSAITRYKSKRKEAIENGWDLGELIDKRKKTSVKDIKE
                      KETPILEEEQLSPFEQSKHHTQTIYDDIQVLDMIISKGAKGLEFVETLDPALMIRAME
                      TKDKITGNQLKGMSFIGLRELQLKQTAQDTAMSEVLLEFIPEEKHEEVLQRLEELQNE
                      FYKNLDLDEESRKLKEALDRVGYTI*"
-                     /protein_id="PROKKA_00164"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00164"
+                     /product="hypothetical protein"
      CDS             121930..122388
+                     /locus_tag="PROKKA_00165"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00165"
                      /translation="MADEISLNPIQDAKPIDDIVDIMTYLKNGKVLRVKQDNQGDILV
                      RMSPGKHKFTEVSRDLDKESFYYKRHWVLYNVSVNSLITFDVYLDEEYSETTKVKYPK
                      DTIVEYTREDQEKDVAMIKEILTDNNGNYFYALTGETMLFDENKLNKVKD*"
                      /product="hypothetical protein"
-                     /locus_tag="PROKKA_00165"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /protein_id="PROKKA_00165"
      CDS             122453..122896
-                     /protein_id="PROKKA_00166"
                      /locus_tag="PROKKA_00166"
                      /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00166"
                      /translation="MFISLNQEEKELLTKEESKYTPLETSREFNTPKEEFIVTSYNEG
                      KPLDYIAKEAKVSMGLIYTVLNYYKVGKRNKKSPVEERIAHILKDKNLVKEIIKDYQY
                      MNLQDIYSKYNLHKNGLYYILDLYHVERKSELKDKALEEDNIVVE*"
                      /product="hypothetical protein"
      CDS             122913..123617
+                     /locus_tag="PROKKA_00167"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00167"
                      /translation="MRNKKSFQEQLNDMRNKDKWVSEEEFTEEVTPSKEPEVEEEKLY
                      TLNELKENLLDAQGLKDVVDNFPASKPVYESNKLYICTIPKGYRSTEVQPGQYIGIST
                      GLLSESEDFSHLRGQMPRNLYETSHVLKPLVRINNTNLEYQQHELLEDIKDDKKIYDV
                      ELEDLRLVTGEEISHLEIVDSKFFESRINEVLDRYTELTDSDDLLKYYSKLRELVGSD
                      KMIYCSLLDKCVKIID*"
                      /product="hypothetical protein"
-                     /locus_tag="PROKKA_00167"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /protein_id="PROKKA_00167"
      CDS             123680..124078
-                     /protein_id="PROKKA_00168"
                      /locus_tag="PROKKA_00168"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /product="hypothetical protein"
+                     /protein_id="NC_025416_PROKKA_00168"
                      /translation="MSRKASIFYILVVIVLAFSISSYYISSFMYHDKAKNEVSTELSN
                      TGKIKEEKNVEFVGDYTLKKVENNKAYFMETLPTYLPGRTGDNSIDMRYYKTSRFKEG
                      VNFKLIRVYTEDGEDNPIHKYRFEAVPTKK*"
+                     /product="hypothetical protein"
      CDS             124225..124467
-                     /protein_id="PROKKA_00169"
-                     /inference="ab initio prediction:Prodigal:2.6"
                      /locus_tag="PROKKA_00169"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00169"
                      /translation="MEMADLERFDAFVRLISDDELSEERILELSVDLLNPILEGGTAY
                      QAKKRIRSKFGKIEAKNFKRNYKFLLKSIAQIDQRR*"
                      /product="hypothetical protein"
      CDS             124472..125029
-                     /product="hypothetical protein"
+                     /locus_tag="PROKKA_00170"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00170"
                      /translation="MTEREKLVKEIEDANRDIQLRLKEVDNYKDSIRSKGTRNYISTK
                      VLDSIMVGFVVSFLILIIMRVLEYFVTGNAVYSPLAPAVIIMFVLALGTWKVSKMNKI
                      VSYRGTIKMYWELSNAEQKQAKVFKYPNDEVDIVSKHNLRQITFSEINILHLKYMRYN
                      KAVEQHTKLSKELFKKDKETVDKNK*"
-                     /protein_id="PROKKA_00170"
-                     /locus_tag="PROKKA_00170"
-                     /inference="ab initio prediction:Prodigal:2.6"
+                     /product="hypothetical protein"
      CDS             125065..125241
-                     /protein_id="PROKKA_00171"
                      /locus_tag="PROKKA_00171"
                      /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00171"
                      /translation="MVIPSIKAQNKFKNELEYYKQGHISESKMLELAFDYIQELEQNN
                      EYVTNLLEEERYGE*"
                      /product="hypothetical protein"
      CDS             125231..125482
-                     /protein_id="PROKKA_00172"
                      /locus_tag="PROKKA_00172"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /product="hypothetical protein"
+                     /protein_id="NC_025416_PROKKA_00172"
                      /translation="MVSKFIGVYLFNLLVVALIYIIGFLFFYGVASLVIIITHATIDP
                      FVLATFLGIGFLVIRTAHRIMARVINDAVAQAIKAKENE*"
+                     /product="hypothetical protein"
      CDS             125475..125708
-                     /protein_id="PROKKA_00173"
-                     /inference="ab initio prediction:Prodigal:2.6"
                      /locus_tag="PROKKA_00173"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00173"
                      /translation="MNKGEFIMDKTLPKFSVYEVIVKTVIMTPTEGSSDRESFYFSTQ
                      ELAERFVKENQVETKDGKRVSFSIKEHKVNQPG*"
                      /product="hypothetical protein"
      CDS             125789..126433
-                     /protein_id="PROKKA_00174"
                      /locus_tag="PROKKA_00174"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /product="hypothetical protein"
+                     /protein_id="NC_025416_PROKKA_00174"
                      /translation="MKVSEEVKQSYLENKANTKMDKISWSELRSSPAGRTIGDLIYFS
                      VIIINNIIAIALTLILGDIIKDLTDSTLVKIISILLIIIVVYGILSALIPILIFKSVF
                      PGWEYTEWNNSYYLRLPEEKDYKYYSYWYLNLLGVTEFYRTNDEGKEIKETSLSWSFY
                      TKVDRPADIDHWKNQLITNRPLTISEYKKLKKLDKESEIRKQEDLEEYKQYNSN*"
-     CDS             126449..126697
                      /product="hypothetical protein"
+     CDS             126449..126697
+                     /locus_tag="PROKKA_00175"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00175"
                      /translation="MISSFDSVLLIIYIIISFAVAMAILYLVFKGMTLLLDKLMMMLL
                      SKTTLDVEACSMIMAVISTIVFGIIVLLIWLAVNNILL*"
-                     /protein_id="PROKKA_00175"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00175"
+                     /product="hypothetical protein"
      CDS             126709..126885
-                     /protein_id="PROKKA_00176"
-                     /inference="ab initio prediction:Prodigal:2.6"
                      /locus_tag="PROKKA_00176"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00176"
                      /translation="MDFNDFINSESDRVGKPKQKKKVENKLPSSTPIEEKEKMLKRIR
                      EKSLYIDLRRKRND*"
                      /product="hypothetical protein"
      CDS             126878..127174
-                     /inference="ab initio prediction:Prodigal:2.6"
                      /locus_tag="PROKKA_00177"
-                     /protein_id="PROKKA_00177"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00177"
                      /translation="MTKETNVLYKDKYRDYTIVVRLAGNIIVTEVDKKHKTKFSPIIF
                      DNGREGVELVMRIGSEELNMKELREFTKEVSTAQKALEYFNKKLYIKGLTDEAF*"
                      /product="hypothetical protein"
      CDS             127222..127404
-                     /product="hypothetical protein"
+                     /locus_tag="PROKKA_00178"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00178"
                      /translation="MLLGILWFIWGFVSYFVVMFGIEFWKDRWMPGVIGAGALLLFLF
                      WIMKSIHNAMTVVYLY*"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00178"
-                     /protein_id="PROKKA_00178"
+                     /product="hypothetical protein"
      CDS             127417..127785
                      /locus_tag="PROKKA_00179"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /protein_id="PROKKA_00179"
+                     /protein_id="NC_025416_PROKKA_00179"
                      /translation="MNILVIHYEETNKRVLKETIKTIQNHLNDEHGLVKMTATRLSRK
                      AIEEEFKDYNIVIAENDPDSFYSYSDAVDDVDFVIDIPISYLDIHAGVEWDVDNPVDM
                      LDRNPDFIEAMGQLNEDLML*"
                      /product="hypothetical protein"
      CDS             127798..128145
+                     /locus_tag="PROKKA_00180"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00180"
                      /translation="MLNEKLKNLEDTKVYMINSIASLLSASTGKSSKVFFDEGTIKIV
                      SGDTKAVEVIDNLVHPHSGRLPIKTTERIALGRLTDSLQFVISEIEAVKDQIIDEENE
                      AYIDFVMEDWNWD*"
                      /product="hypothetical protein"
-                     /protein_id="PROKKA_00180"
-                     /locus_tag="PROKKA_00180"
-                     /inference="ab initio prediction:Prodigal:2.6"
      CDS             128493..128798
-                     /protein_id="PROKKA_00181"
                      /locus_tag="PROKKA_00181"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /product="hypothetical protein"
+                     /protein_id="NC_025416_PROKKA_00181"
                      /translation="MSKETIRRQFSNAIEILATTKEWWNFPKNFSTDKEFKIKSFKND
                      TLVFEVREGSTNLGSFVVFTCIDFDYDKLEGTSTQYMVNYFAKKVVRDMFNYHELQL*
                      "
-     CDS             128813..129163
                      /product="hypothetical protein"
+     CDS             128813..129163
+                     /locus_tag="PROKKA_00182"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00182"
                      /translation="MRDELKPFNRKQVNVKGYLDDVKYSKRRRHKGNQHGCVRITVTN
                      VSINGIPIDHVNIEVGISFYEKLKELQGKRIQFVGTVYKYVKHARGRKGRIKGFYKED
                      YSVTLDKKLQKEEK*"
-                     /locus_tag="PROKKA_00182"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /protein_id="PROKKA_00182"
+                     /product="hypothetical protein"
      CDS             129163..129765
+                     /locus_tag="PROKKA_00183"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00183"
                      /translation="MIKRRKHLDHTVQPKEGWRTVPFNGYYEAHPTGLIRNKVTQKLI
                      KGTQTRKNHHKWTAHEIVYLINPKKTTYSRGVVIAHTFPELISQSRGDLKNGHVCFKD
                      GDRSNCHVDNMFIGKGNVNKNIYKLNDSYLTRKDIEEDINNLVNERLFSQLELLIKKN
                      EPERITPSNHFIKRNNNVFSITDLSKNSLVEFELEIKNIK*"
                      /product="hypothetical protein"
-                     /locus_tag="PROKKA_00183"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /protein_id="PROKKA_00183"
      CDS             129784..129972
-                     /protein_id="PROKKA_00184"
-                     /inference="ab initio prediction:Prodigal:2.6"
                      /locus_tag="PROKKA_00184"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00184"
                      /translation="MTEWYALCYYDKVGKKKVPKQIRAHRDISVLEELKERLEERNPN
                      TEYAIKTTKQFDKIREKL*"
                      /product="hypothetical protein"
      CDS             129977..131029
-                     /inference="ab initio prediction:Prodigal:2.6"
                      /locus_tag="PROKKA_00185"
-                     /protein_id="PROKKA_00185"
-                     /product="hypothetical protein"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00185"
                      /translation="MSKYYYNKGQSVNGLLIVEQISIPTKKGKSKEKGYIVQSIMYPD
                      APTYKVKESNLRWGKGDAYASGRRVYEGNSLYSYKEFRKFIVNPEEAKKVTRNSPKFL
                      EFMCPECKETKFMRVYHLVNNGFSCPTCSTGISYPERFMLHYLKVKSIPYEYQVNLIN
@@ -1805,42 +1804,46 @@ FEATURES             Location/Qualifiers
                      CRESDFNYIKRQINSNKILPSINNKEEKEITQLLSHSKKYPTNMIIKDNKDGLNLKQI
                      SEKYNLTPRIVQGVLKKSGVLVNGNKKKTLCITTGVIYSSTQEASKLTGISQASISNC
                      CNGKQKTAGKMQWEYI*"
+                     /product="hypothetical protein"
      CDS             131329..131487
+                     /locus_tag="PROKKA_00186"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00186"
                      /translation="MVGIIILIVGLILFLASGYKLVLGKYYDDIDLKMLFTIFGIGAI
                      LLLTGFIL*"
                      /product="hypothetical protein"
-                     /protein_id="PROKKA_00186"
-                     /locus_tag="PROKKA_00186"
-                     /inference="ab initio prediction:Prodigal:2.6"
      CDS             131503..131727
-                     /inference="ab initio prediction:Prodigal:2.6"
                      /locus_tag="PROKKA_00187"
-                     /protein_id="PROKKA_00187"
-                     /product="hypothetical protein"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00187"
                      /translation="MNYKEVLEVIKKNKPCKVRFTGSILAIVNKEFNADTDKGILQID
                      VSNINKDDYIKIQQYCLERDDYTVAGAILF*"
-     CDS             131740..131940
                      /product="hypothetical protein"
+     CDS             131740..131940
+                     /locus_tag="PROKKA_00188"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00188"
                      /translation="MNYRDFITDCISGGYNVHISVTEKRVHIISEMTSASYPKKEINL
                      DELQAYVYYMNNFGSQITMEGL*"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00188"
-                     /protein_id="PROKKA_00188"
-     CDS             131941..132231
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00189"
-                     /protein_id="PROKKA_00189"
                      /product="hypothetical protein"
+     CDS             131941..132231
+                     /locus_tag="PROKKA_00189"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00189"
                      /translation="MELVINIIAVLIGMYGIYFYVTKFSTGLSGILIVLGMAVGLYFY
                      LDYLNVRENVIRLVSVMFGAFLFSIEMIYNKIMFEIKKSKYDKTVRTYRGDQ*"
+                     /product="hypothetical protein"
      CDS             132324..132617
-                     /protein_id="PROKKA_00190"
                      /locus_tag="PROKKA_00190"
                      /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00190"
                      /translation="MYPDIGELAYKLKSTRERLEGIMMEEVWEIHHRETGKLVFKGGY
                      LEVKEILRKMYKENLTLVDVDTMLNIGQGFFDVAKSISAENVFQINYKKELPR*"
                      /product="hypothetical protein"
      CDS             132614..133522
+                     /locus_tag="PROKKA_00191"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00191"
                      /translation="MIKVFSEMDSEYKTIVPEKFPNGEINFKYDDLKYLVEGDLRFDV
                      FFKWENDADLMHLYMFTKYLEQLGIKDRAEFLDIAYLPYSRMDRVEEGHSNMFSLKYI
                      AEFINNLNYKSIWIAEPHSPVTEELLKNSFAVDVTINILNQYIGMTEEPVTIVLPDKG
@@ -1848,14 +1851,10 @@ FEATURES             Location/Qualifiers
                      LTSYGGTFVGCKKSLDKLGVNSVSLILTHAEKVFMEGKLFESGFKDIIVTDSMLSDSI
                      WTKAIAKHRAQENGTELQINDIERYL*"
                      /product="hypothetical protein"
-                     /protein_id="PROKKA_00191"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00191"
      CDS             133540..135009
-                     /inference="ab initio prediction:Prodigal:2.6"
                      /locus_tag="PROKKA_00192"
-                     /protein_id="PROKKA_00192"
-                     /product="hypothetical protein"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00192"
                      /translation="MLNPTLMCDFYKLSHREQYPEGTEFVYSTLVPRSNKYYEHSDNI
                      VVFGIQSLVKKYLIDMFNKEFFNRPKEEVINEYKRTVKFTLGHENPDAKHLEQLHDLG
                      YLPIDVRALKEGTVVHPNTPVMTIENTHADFFWLTNYLETIISTQTWQAMTSATLAYD
@@ -1865,138 +1864,139 @@ FEATURES             Location/Qualifiers
                      VLWDTFGGTETEKGYKLLDEHVGLIYGDSINYERAQQICEGLKEKGFASINVVLGVGS
                      FSYQFNTRDTHGFAIKATYAKIKNEEKLIYKNPKTDSGKRSHKGRVAVYKDGSWEDNL
                      NLHQWLNKQNVTQLEKVFEDGKLYRDQSLSEIREIIKNN*"
+                     /product="hypothetical protein"
      CDS             135088..135333
                      /locus_tag="PROKKA_00193"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /protein_id="PROKKA_00193"
+                     /protein_id="NC_025416_PROKKA_00193"
                      /translation="MIYKISKHNYYSRFEHSTYPPDEGFAYVDYVDVILIGVDNPKKR
                      KIITLKVNEFNPDDYRVGHKYNIIKILWFEKWEWLKP*"
                      /product="hypothetical protein"
      CDS             135353..135745
-                     /protein_id="PROKKA_00194"
-                     /inference="ab initio prediction:Prodigal:2.6"
                      /locus_tag="PROKKA_00194"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00194"
                      /translation="MIIDKLNGVKLEIGGHVVSFSVIKFDTINGERQLIDYHHIKRGR
                      QKYFRTTEEFYNEYKEIKPDKNEIDEMFESLGYVDTELDDVVRNLEKVTEILGVSEQY
                      LNQLAYKAIEEHVDKVVTLEIEELKGGK*"
                      /product="hypothetical protein"
      CDS             135747..135944
-                     /product="hypothetical protein"
-                     /translation="MNNNWEKEGVNYWENEDCPREYLEKAFIDLVEYVEGVTVPPKDV
-                     KQLREDKLREDIGFYEYVADK*"
-                     /protein_id="PROKKA_00195"
                      /locus_tag="PROKKA_00195"
                      /inference="ab initio prediction:Prodigal:2.6"
-     CDS             136010..136321
+                     /protein_id="NC_025416_PROKKA_00195"
+                     /translation="MNNNWEKEGVNYWENEDCPREYLEKAFIDLVEYVEGVTVPPKDV
+                     KQLREDKLREDIGFYEYVADK*"
                      /product="hypothetical protein"
+     CDS             136010..136321
+                     /locus_tag="PROKKA_00196"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00196"
                      /translation="MKKLIVLLTITISLLLGGCSPDNHEGKVVGVGEYREPTTYIKSG
                      SVTVPVIGEMKYYVDLETDKGEDRIYLNKEVYHEFDKGDNFSNVGEKVYKNDELIYKG
                      D*"
-                     /protein_id="PROKKA_00196"
-                     /locus_tag="PROKKA_00196"
-                     /inference="ab initio prediction:Prodigal:2.6"
+                     /product="hypothetical protein"
      CDS             136324..136833
-                     /inference="ab initio prediction:Prodigal:2.6"
                      /locus_tag="PROKKA_00197"
-                     /protein_id="PROKKA_00197"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00197"
                      /translation="MYLNDYVGKFIKEDNYYGYQSTDLVSNYVQRLTLGRYKTKLNAN
                      KMKYERLPSSWKIIKAKDLLRTDDYREGDIFVSERISVFGFNGIIVRNHDFNNVTVIT
                      QNRDGKATKPVEEHLYPKKDIDYIIRPIERDYREYFKQSDSKEKVTLSKQEYKKLLEA
                      YNKMKEVFK*"
                      /product="hypothetical protein"
      CDS             136835..137173
-                     /protein_id="PROKKA_00198"
-                     /inference="ab initio prediction:Prodigal:2.6"
                      /locus_tag="PROKKA_00198"
-                     /product="hypothetical protein"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00198"
                      /translation="MNSTKLVDYFTSKQGKYLVLLNETKVKLGRVDVTPYTMRLNFTY
                      NTEVVSIDIDKLYSDSIEMHIPQGLYMTTVVNLPSTQSVSAVLHMVLEEWVRQVQNDE
                      IFGFVWEELI*"
+                     /product="hypothetical protein"
      CDS             137170..137286
+                     /locus_tag="PROKKA_00199"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00199"
                      /translation="MTIEKLLKASHMYENVKQYDIKKLPKPSMVSKDKYTGK*"
                      /product="hypothetical protein"
-                     /protein_id="PROKKA_00199"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00199"
      CDS             137300..137701
-                     /protein_id="PROKKA_00200"
                      /locus_tag="PROKKA_00200"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /product="hypothetical protein"
+                     /protein_id="NC_025416_PROKKA_00200"
                      /translation="MFRKRKAKYITDNIQEKINTERSKELSEEQEFRNRLNTDTYKSY
                      ELDEIVEEHLNKLEGITVEELGLDSIRLGTHLIHYYPIGKSMEEQVYSRRELEYMQKQ
                      FKKLGFETQISNSQVGFTPYIYLRLIWSAYK*"
-     CDS             137891..138142
                      /product="hypothetical protein"
-                     /translation="MYRYLLFASQHYEEFGDMRDLVFEFNTVDELQKEMENGGEDIGL
-                     KYKDFFLIHDIKNDKIYRYFTVYGEDIHNIFDDFINENL*"
+     CDS             137891..138142
                      /locus_tag="PROKKA_00201"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /protein_id="PROKKA_00201"
-     CDS             138245..138469
+                     /protein_id="NC_025416_PROKKA_00201"
+                     /translation="MYRYLLFASQHYEEFGDMRDLVFEFNTVDELQKEMENGGEDIGL
+                     KYKDFFLIHDIKNDKIYRYFTVYGEDIHNIFDDFINENL*"
                      /product="hypothetical protein"
-                     /translation="MDFNLKDYAIIPVTDKEGNIVIRIVYVCLRREYSDWVVDKVYGR
-                     QESSETWLNFMQDIRNIDRAKLKVEKWQVT*"
-                     /protein_id="PROKKA_00202"
+     CDS             138245..138469
                      /locus_tag="PROKKA_00202"
                      /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00202"
+                     /translation="MDFNLKDYAIIPVTDKEGNIVIRIVYVCLRREYSDWVVDKVYGR
+                     QESSETWLNFMQDIRNIDRAKLKVEKWQVT*"
+                     /product="hypothetical protein"
      CDS             139106..139294
+                     /locus_tag="PROKKA_00203"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00203"
                      /translation="MKNLQIDNNNYEVDFVASRPYTTSVMIYLKNDSWVEISKLDIKD
                      RKILKVSSKQILSKSINM*"
                      /product="hypothetical protein"
-                     /protein_id="PROKKA_00203"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00203"
      CDS             139308..139601
-                     /inference="ab initio prediction:Prodigal:2.6"
                      /locus_tag="PROKKA_00204"
-                     /protein_id="PROKKA_00204"
-                     /product="hypothetical protein"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00204"
                      /translation="MIDIYLHSEYDKDKLKFILKAIRDFSPRELTYDFRNPKADVRIE
                      ELLGDDIDVFESIVLDYPNDINILVGDSGYTIVYQNDFLTINGLRMAIKEVVK*"
-     CDS             139598..139783
                      /product="hypothetical protein"
-                     /translation="MIGQIILLAIVSIVTIGCVGLFFYETFKSIKYDANDKIFMVTGS
-                     ILMLVIIVSGTLAILGI*"
+     CDS             139598..139783
                      /locus_tag="PROKKA_00205"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /protein_id="PROKKA_00205"
+                     /protein_id="NC_025416_PROKKA_00205"
+                     /translation="MIGQIILLAIVSIVTIGCVGLFFYETFKSIKYDANDKIFMVTGS
+                     ILMLVIIVSGTLAILGI*"
+                     /product="hypothetical protein"
      CDS             140183..140470
+                     /locus_tag="PROKKA_00206"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00206"
                      /translation="MIIIFLTEKYDSKALKKVLEHIDNCSSRGLSYLMGKGEADVCIE
                      KNVFRERDDVRINSNIIDEGKLCVLINRHGLECSYYRGVSCNIGAFVKERL*"
                      /product="hypothetical protein"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /locus_tag="PROKKA_00206"
-                     /protein_id="PROKKA_00206"
      CDS             140470..140763
                      /locus_tag="PROKKA_00207"
                      /inference="ab initio prediction:Prodigal:2.6"
-                     /protein_id="PROKKA_00207"
+                     /protein_id="NC_025416_PROKKA_00207"
                      /translation="MIEIYLSENYDKDLLKAELKWIKETASRELTYDVNRKPGLDVYV
                      NPYRCTKDEVEEWSTLPPFEDDILVFIAETWIHEYHRGKSIGVDSMEEYVKEM*"
                      /product="hypothetical protein"
      CDS             140767..141024
-                     /protein_id="PROKKA_00208"
                      /locus_tag="PROKKA_00208"
                      /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00208"
                      /translation="MFKVYYTVYHRGSMKTIKDKLDRSSLIYFLYDTWYKDISNVFPN
                      HYNKEFGSKSDDIDIDKLIEAVNEEGILLINRGNYVTIREW*"
                      /product="hypothetical protein"
      CDS             141132..141371
-                     /product="hypothetical protein"
-                     /translation="MDTLTYTIIHKESDRVIASGLNELEVINLVQRMINTNLVTDISL
-                     DDYIRRPHGKIDVVNLLVDIRRQGVFDFNHIWHVG*"
-                     /protein_id="PROKKA_00209"
                      /locus_tag="PROKKA_00209"
                      /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00209"
+                     /translation="MDTLTYTIIHKESDRVIASGLNELEVINLVQRMINTNLVTDISL
+                     DDYIRRPHGKIDVVNLLVDIRRQGVFDFNHIWHVG*"
+                     /product="hypothetical protein"
      CDS             141382..141726
+                     /locus_tag="PROKKA_00210"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /protein_id="NC_025416_PROKKA_00210"
                      /translation="MIVIYSDESKGYLRDEFLPWLNDRDRYLEYYKDKLPEDIDSSYV
                      VSVVYCRNMEGLMNRKDILIGNSYREPVAVLGVPEFFGNYSNYYYYKGEYISKHDLGE
                      IIRLKAWQRNFD*"
                      /product="hypothetical protein"
-                     /locus_tag="PROKKA_00210"
-                     /inference="ab initio prediction:Prodigal:2.6"
-                     /protein_id="PROKKA_00210"
 ORIGIN      
         1 agtgtattgt ataatttttt tatagaatat ttataacatt gtattcaaat tcatttactt
        61 catgttgtga tttaattaaa tttttaatta atccgttttg tgttttgtaa tcttttatta
