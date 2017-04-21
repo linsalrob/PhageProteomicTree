@@ -146,3 +146,35 @@ Here is the final tree. To generate this image I opened the [renamed_full.tree](
 
 We have included most of the important files in this repo, though if we forgot some let Rob know. As you will note, some of the intermediate files are missing from this repository because we are limited in size.
 
+
+
+# RE-ANNOTATED GENOMES
+
+Evelien reannotated all the genomes and provided GFF files, but GFF is not a [record based file format](http://biopython.org/wiki/GFF_Parsing) *(yes, I know that is biopython, but the explanation is true for bioperl too)*. Therefore, before we begin we convert them to genbank files. Hopefully, these files will be useful to others, too.
+
+We start by converting GFF to Genbank, but this converter from EMBL does not create the header information, because it is not included in the files.
+
+
+```
+for i in *.gff; 
+	do o=$(echo $i | sed -e 's/gff/gbk/'); 
+	seqret -sequence $i -outseq $o -osformat2 genbank -sformat1 gff -feature 1;
+done
+```
+
+
+We also need a [mapping file](mapping.tsv) that tells us the original genbank filename and the new filename converted from the gff. Unfortunately there was no way to make that but by hand.
+
+
+```
+for I in $(cat mapping.tsv);
+	do
+		G=$(echo $I | cut -f 2 -d$'\t'); 
+		R=$(echo $I | cut -f 1 -d$'\t'); 
+		O=$(echo $R | sed -e 's/PROKKA_//'); 
+		echo -e "$G\t$R\t$O"; 
+		perl merge_annotations.pl genomes/$G reannotated_genomes/$R reannotated_genomes_merged/$O; 
+	done
+```
+
+Now we have a set of genbank files that we can process as above.
