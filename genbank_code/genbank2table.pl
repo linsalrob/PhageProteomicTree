@@ -11,6 +11,7 @@ $0 [OPTIONS] <list of genbankfiles>
 OPTIONS:
 	-v   (for verbose output)
 	-t   (to add the sequence accession to all the ids printed)
+	-n   (to add the file name to all the ids printed)
 	-d <filename>  file for DNA sequence of the genes
 	-g <filename>  file for DNA sequence of the genome
 	-p <filename>  file for the protein sequences
@@ -30,6 +31,7 @@ my $protF;
 my $funcF;
 my $genomeF;
 my $adddesc;
+my $addfilename;
 my $idF;
 
 while (@ARGV) {
@@ -41,6 +43,7 @@ while (@ARGV) {
 	elsif ($f eq "-i") {$idF = shift @ARGV}
 	elsif ($f eq "-v") {$verbose = 1}
 	elsif ($f eq "-t") {$adddesc = 1}
+	elsif ($f eq "-n") {$addfilename = 1}
 	else {push @infiles, $f}
 }
 
@@ -66,11 +69,20 @@ foreach my $file (@infiles)
 	my $desctag = "";
 	my $sio=Bio::SeqIO->new(-file=>$file, -format=>'genbank');
 	while (my $seq=$sio->next_seq) {
-		if ($adddesc) {$desctag = " [" . $seq->accession. "]"}
+		if ($adddesc) {$desctag .= " [" . $seq->accession. "]"}
+		my $shortfilename = $file;
+		$shortfilename =~ s#^.*/##;
+		$shortfilename =~ s#.gbk##;
+		$shortfilename =~ s#.gb##;
+
+		if ($addfilename) {
+			$desctag .= " [" . $shortfilename . "]";
+		}
+
 		if (defined $genomeF) {print GF ">", $seq->display_name, "$desctag\n", $seq->seq, "\n"}
 		if (defined $idF) {
 			my $shortname = &shortname($seq->desc);
-			print IDF join("\t", $seq->accession, $seq->desc, $shortname), "\n";
+			print IDF join("\t", $seq->accession, $seq->desc, $shortname, $shortfilename), "\n";
 		}
 		my $seqname=$seq->display_name;
 		my $source = "";
@@ -95,7 +107,10 @@ foreach my $file (@infiles)
 			my $id; # what we will call the sequence
 			my ($trans, $gi, $geneid, $prod, $locus, $np);
 
+			eval {$locus = join " ", $feature->each_tag_value("locus_tag")};
+			eval {$prod  = join " ", $feature->each_tag_value("product")};
 			eval {$trans = join " ", $feature->each_tag_value("translation")};
+			unless ($trans) {$trans = $feature->seq->translate->seq()}
 			eval {$np = join " ", $feature->each_tag_value("protein_id")};
 			if (!$np) {
 				my $fig = "";
@@ -106,8 +121,13 @@ foreach my $file (@infiles)
 				}
 			}
 			if ($trans && !$np) {
-				if ($verbose) {print STDERR "No NP for $trans. Skipped\n"}
-				next;
+				if ($locus) {
+					if ($verbose) {print STDERR "Using LOCUS as NP\n"}
+					$np = $locus;
+				} else {
+					if ($verbose) {print STDERR "No NP for $trans. Skipped\n"}
+					next;
+				}
 			}
 			elsif (!$trans && $np) {
 				if ($verbose) {print STDERR "No translation for $np. Skipped\n"}
@@ -123,8 +143,6 @@ foreach my $file (@infiles)
 				}
 			};
 
-			eval {$locus = join " ", $feature->each_tag_value("locus_tag")};
-			eval {$prod  = join " ", $feature->each_tag_value("product")};
 
 			my $end = $feature->end;
 			my $start = $feature->start;
