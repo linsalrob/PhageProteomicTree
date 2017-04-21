@@ -37,7 +37,9 @@ foreach my $feature ($rseq->top_SeqFeatures()) {
 
 	my $trans = $feature->seq->translate->seq;
 	$feature->add_tag_value('translation', $trans);
-	$feature->add_tag_value('protein_id', $feature->get_tag_values('locus_tag'));
+	my $lt = join("_", $seq->display_id, $feature->get_tag_values('locus_tag'));
+
+	$feature->add_tag_value('protein_id', $lt);
 
 	$seq->add_SeqFeature($feature);
 }
