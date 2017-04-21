@@ -152,6 +152,12 @@ We have included most of the important files in this repo, though if we forgot s
 
 Evelien reannotated all the genomes and provided GFF files, but GFF is not a [record based file format](http://biopython.org/wiki/GFF_Parsing) *(yes, I know that is biopython, but the explanation is true for bioperl too)*. Therefore, before we begin we convert them to genbank files. Hopefully, these files will be useful to others, too.
 
+Before we do any analysis, we are going to change the internal field separator in bash which is normally white space, but we want to process line by line:
+
+```
+export IFS=$'\n'
+```
+
 We start by converting GFF to Genbank, but this converter from EMBL does not create the header information, because it is not included in the files.
 
 
@@ -165,8 +171,13 @@ done
 
 We also need a [mapping file](mapping.tsv) that tells us the original genbank filename and the new filename converted from the gff. Unfortunately there was no way to make that but by hand.
 
+Once we have those two, we read a GenBank file, delete the original ORF calls, read the ORF calls from the appropriate GenBank file created from the GFF file, and add them to the backbone of the GenBank file. This is a really convoluted way of making the sequence files but there are two advantages. First, we keep track of the organisms so we can compare them to other's taxonomies, and second, the GenBank files work with all the downstream analysis pipeline.
+
+Here is how to reannotate the ORFs in the GenBank files
+
 
 ```
+IFS=$'\n'
 for I in $(cat mapping.tsv);
 	do
 		G=$(echo $I | cut -f 2 -d$'\t'); 
@@ -177,7 +188,7 @@ for I in $(cat mapping.tsv);
 	done
 ```
 
-Now we have a set of genbank files that we can process as above.
+Now we have a directory called [reannotated_genomes_merged](reannotated_genomes_merged) that contains all the genbank files that we will process as above.
 
 Lets concatenate those commands in a few shell commands with no explanations:
 
@@ -212,27 +223,11 @@ qsub -cwd  -S /bin/bash -V -o sge_output/ -e sge_output/ -t 1-$NUMFILES:1 ~/Phag
 and then 
 
 ```
-qsub -cwd -S /bin/bash -V -o sge_output/ -e sge_output/ -t 1-$NUMFILES:1 -hold_jid 1270536 ~/PhageProteomicTree/protdist.sh
+qsub -cwd -S /bin/bash -V -o sge_output/ -e sge_output/ -t 1-$NUMFILES:1 -hold_jid PREV_JID ~/PhageProteomicTree/protdist.sh
 ```
 
-Once that is complete we use:
+Once that is complete we have two bash scripts that complete the remainder of the steps. This allows us to submit these to the cluster to be held until the other commands are complete
 
-```
-rm -f `find protdist -size 0`
-perl ~/PhageProteomicTree/rewrite_protdists.pl protdist protdist.fixed
-NUMGENOMES=$(wc -l genome_names.txt | sed -e 's/\s\+genome_names.txt//')
-qsub -cwd -S /bin/bash -V -v NUMGENOMES=$NUMGENOMES -o sge_output -e sge_output ~/PhageProteomicTree/matrix.sh
-```
 
-and then 
-
-```
-mkdir neighbor
-cp matrix.nosubreplicates neighbor/infile
-cd neighbor
-echo -e "j\n133\ny"  | neighbor
-cp outtree ../raw.tree
-cd ..
-perl ~/PhageProteomicTree/rename_tree_leaves.pl genome_id.map raw.tree > renamed_full.tree
-```
-
+qsub -cwd -S /bin/bash -V -o sge_output/ -e sge_output/ -hold_jid PREV_JID ~/PhageProteomicTree/bash_script3.sh
+qsub -cwd -S /bin/bash -V -o sge_output/ -e sge_output/ -hold_jid PREV_JID ~/PhageProteomicTree/bash_script4.sh
