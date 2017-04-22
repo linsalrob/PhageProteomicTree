@@ -229,5 +229,17 @@ qsub -cwd -S /bin/bash -V -o sge_output/ -e sge_output/ -t 1-$NUMFILES:1 -hold_j
 Once that is complete we have two bash scripts that complete the remainder of the steps. This allows us to submit these to the cluster to be held until the other commands are complete
 
 
+```
 qsub -cwd -S /bin/bash -V -o sge_output/ -e sge_output/ -hold_jid PREV_JID ~/PhageProteomicTree/bash_script3.sh
+```
+
+That script submits another job to the cluster, and then you need to run this one.
+
+```
 qsub -cwd -S /bin/bash -V -o sge_output/ -e sge_output/ -hold_jid PREV_JID ~/PhageProteomicTree/bash_script4.sh
+```
+
+![Phage Proteomic Tree of the Spounaviridae](images/reannotated_genome_tree.png)
+
+
+
