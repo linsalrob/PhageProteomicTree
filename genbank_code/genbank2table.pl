@@ -182,8 +182,8 @@ sub seedid {
 sub shortname {
 	my $n=shift;
 	$n .= " ";
-	$n =~ s/, complete genome\./i/;
-	$n =~ s/ complete genome\./i/;
+	$n =~ s/, complete genome\.//i;
+	$n =~ s/ complete genome\.//i;
 	$n =~ s/\s+genome\s+/ /; 
 	$n =~ s/^unclassified\s+//i;
 	$n =~ s/unclassified\.$//i;
