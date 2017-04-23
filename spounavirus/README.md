@@ -239,6 +239,8 @@ That script submits another job to the cluster, and then you need to run this on
 qsub -cwd -S /bin/bash -V -o sge_output/ -e sge_output/ -hold_jid PREV_JID ~/PhageProteomicTree/bash_script4.sh
 ```
 
+Once the analysis is complete, we visualize the tree in  [FigTree](http://tree.bio.ed.ac.uk/software/figtree/) to add the colors. That results in the [colored tree file](renamed_full_colored.tree)
+
 ![Phage Proteomic Tree of the Spounaviridae](images/reannotated_genome_tree.png)
 
 
