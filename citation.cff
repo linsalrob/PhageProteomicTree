@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+title: 'Phage Proteomic Tree'
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Robert
+    name-particle: Robert
+    family-names: Edwards
+    email: raedwards@gmail.com
+    affiliation: Flinders University
+    orcid: 'https://orcid.org/0000-0001-8383-8949'
+  - given-names: Katelyn
+    family-names: McNair
+    affiliation: San Diego State University
+    orcid: 'https://orcid.org/0000-0001-9036-3259'
+doi: 10.5281/zenodo.13722918
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.13722918
+    description: Zenodo repository of release
+repository-code: 'https://github.com/linsalrob/PhageProteomicTree'
+abstract: >-
+  The original phage proteomic tree. 
+keywords:
+  - metagenome
+  - genome
+  - phage
+  - prophage
+  - DNA sequencing
+  - microbiome
+  - bacteria
+  - virus
+license: MIT
